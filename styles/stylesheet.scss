@@ -1,0 +1,174 @@
+$light: #FF847D;
+$medium: #A96A9C;
+$dark: #475879;
+$shadow: #2F4858;
+
+$display: 'Press Start 2P', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(195deg, $light, $medium, $dark) fixed;
+  min-height: 100%;
+}
+
+section {
+  padding: 5rem;
+  margin: 20vh auto 0;
+  width: 60%;
+  border: 1rem double $light;
+  border-radius: 2rem;
+  box-shadow: 5px 5px $shadow;
+  background: linear-gradient(165deg, $light, $medium, $dark) fixed;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: $display;
+  text-shadow: 5px 5px $shadow;
+}
+
+h2 {
+  color: $light;
+  font-size: 2rem;
+  text-align: center;
+  margin: 5vh 0 0;
+  font-family: $body;
+  font-weight: 200;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 55%;
+  justify-content: space-around;
+  position: relative;
+  top: 50px;
+  z-index: -1;
+  #portfolio {
+    background-color: $dark;
+    border: .5rem double $light;
+    box-shadow: 5px 5px $shadow;  
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    z-index: -1;
+    font-family: $display;
+    text-shadow: 2px 2px $shadow;
+    color: white;
+    &:hover {
+      background-color: $light;
+      border: .5rem double $dark;
+    }
+    transition: all 0.25s linear;
+  }
+  #resume {
+    background-color: $dark;
+    border: .5rem double $light;
+    box-shadow: 5px 5px $shadow;  
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    z-index: -1;
+    font-family: $display;
+    text-shadow: 2px 2px $shadow;
+    color: white;
+    &:hover {
+      background-color: $light;
+      border: .5rem double $dark;
+    }
+    transition: all 0.25s linear;
+}
+  #about {
+    background-color: $dark;
+    border: .5rem double $light;
+    box-shadow: 5px 5px $shadow;  
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    z-index: -1;
+    font-family: $display;
+    text-shadow: 2px 2px $shadow;
+    color: white;
+    &:hover {
+      background-color: $light;
+      border: .5rem double $dark;
+    }
+    transition: all 0.25s linear;
+  }
+  animation: drop 1s ease-in-out;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(-200px);
+  }
+  60% {
+    transform: translateY(10px);
+  }
+  65% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  85% {
+    transform: translateY(-5px);
+  }
+  86% {
+    transform: translateY(-4px);
+  }
+  87% {
+    transform: translateY(-3px);
+  }
+  88% {
+    transform: translateY(-2px);
+  }
+  89% {
+    transform: translateY(-1px);
+  }
+  90% {
+    transform: translateY(0);
+  }
+  91% {
+    transform: translateY(1px);
+  }
+  92% {
+    transform: translateY(2px);
+  }
+  93% {
+    transform: translateY(3px);
+  }
+  94% {
+    transform: translateY(2px);
+  }
+  95% {
+    transform: translateY(1px);
+  }
+  96% {
+    transform: translateY(0);
+  }
+  97% {
+    transform: translateY(-1px);
+  }
+  98% {
+    transform: translateY(0);
+  }
+  99% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
