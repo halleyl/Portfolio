@@ -42,6 +42,7 @@ h2 {
   margin: 5vh 0 0;
   font-family: $body;
   font-weight: 200;
+  text-shadow: 1px 1px $shadow;
 }
 
 nav {
@@ -232,9 +233,6 @@ nav {
   h1 {
     font-size: 2rem;
   }
-  h2 {
-    font-size: 1.5rem;
-  }
   nav {
     width: 85%;
   }
@@ -317,5 +315,8 @@ nav {
   }
   h1 {
     line-height: 1.5em;
+  }
+  h2 {
+    font-size: 1.5rem;
   }
 }
