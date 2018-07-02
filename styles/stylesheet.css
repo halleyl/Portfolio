@@ -275,7 +275,7 @@ nav {
 
   nav {
     width: 75%; } }
-@media (max-width: 960px) {
+@media (max-width: 970px) {
   #sign {
     width: 90%; }
 
@@ -289,18 +289,50 @@ nav {
     width: 85%; }
 
   #portfolio {
-    font-size: .75rem; }
+    font-size: .9rem; }
 
   #resume {
-    font-size: .75rem; }
+    font-size: .9rem; }
 
   #about {
-    font-size: .75rem; }
+    font-size: .9rem; }
 
   .pixelart-to-css {
     display: none; } }
-@media (max-width: 660px) {
+@media (max-width: 680px) {
   #sign {
+    margin: 10vh auto 0;
     padding: 5rem 2rem; } }
+@media (max-width: 660px) {
+  nav {
+    top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    nav #portfolio {
+      margin: 1rem 0 0.5rem; }
+    nav #resume {
+      margin: .5rem 0; }
+    nav #about {
+      margin: .5rem 0; }
+
+  .rope1-left {
+    display: none; }
+
+  .rope1-right {
+    display: none; }
+
+  .rope2-left {
+    display: none; }
+
+  .rope2-right {
+    display: none; }
+
+  .rope3-left {
+    display: none; }
+
+  .rope3-right {
+    display: none; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

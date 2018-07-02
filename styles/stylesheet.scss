@@ -222,7 +222,7 @@ nav {
   }
 }
 
-@media(max-width:960px) {
+@media(max-width:970px) {
   #sign {
     width: 90%;
   }
@@ -236,21 +236,57 @@ nav {
     width: 85%;
   }
   #portfolio {
-    font-size: .75rem;
+    font-size: .9rem;
   }
   #resume {
-    font-size: .75rem;
+    font-size: .9rem;
   }
   #about {
-    font-size: .75rem;
+    font-size: .9rem;
   }
   .pixelart-to-css {
     display: none;
   }
 }
 
-@media(max-width:660px) {
+@media(max-width:680px) {
   #sign {
+    margin: 10vh auto 0;
     padding: 5rem 2rem;
+  }
+}
+
+@media(max-width:660px) {
+  // TODO: Change positioning of nav buttons to stack veritcally
+  nav {
+    top: 0;
+    flex-direction: column;
+    #portfolio {
+      margin: 1rem 0 .5rem ;
+    }
+    #resume {
+      margin: .5rem 0;
+    }
+    #about {
+      margin: .5rem 0;
+    }
+  }
+  .rope1-left {
+    display: none;
+  }
+  .rope1-right {
+    display: none;
+  }
+  .rope2-left {
+    display: none;
+  }
+  .rope2-right {
+    display: none;
+  }
+  .rope3-left {
+    display: none;
+  }
+  .rope3-right {
+    display: none;
   }
 }
