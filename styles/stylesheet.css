@@ -53,6 +53,9 @@ nav {
   z-index: -1;
   -webkit-animation: drop 1s ease-in-out;
           animation: drop 1s ease-in-out; }
+  nav a {
+    color: white;
+    text-decoration: none; }
   nav #portfolio {
     background-color: #475879;
     border: 0.25rem solid #FF847D;
@@ -247,7 +250,7 @@ nav {
   display: block;
   position: absolute;
   bottom: 100%;
-  padding-left: 9em; }
+  padding-left: 8.75em; }
 
 .rope1-right {
   display: block;
@@ -258,7 +261,7 @@ nav {
   display: block;
   position: absolute;
   bottom: 100%;
-  padding-left: 6em; }
+  padding-left: 5.75em; }
 
 .rope2-right {
   display: block;
@@ -269,7 +272,7 @@ nav {
   display: block;
   position: absolute;
   bottom: 100%;
-  padding-left: 8em; }
+  padding-left: 7.5em; }
 
 .rope3-right {
   display: block;

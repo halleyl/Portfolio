@@ -55,6 +55,10 @@ nav {
   position: relative;
   top: 50px;
   z-index: -1;
+  a {
+    color: white;
+    text-decoration: none;
+  }
   #portfolio {
     background-color: $dark;
     border: .25rem solid $light;
@@ -182,7 +186,7 @@ nav {
   display: block;
   position: absolute;
   bottom: 100%;
-  padding-left: 9em;
+  padding-left: 8.75em;
 }
 
 .rope1-right {
@@ -195,7 +199,7 @@ nav {
   display: block;
   position: absolute;
   bottom: 100%;
-  padding-left: 6em;
+  padding-left: 5.75em;
 }
 
 .rope2-right {
@@ -208,7 +212,7 @@ nav {
   display: block;
   position: absolute;
   bottom: 100%;
-  padding-left: 8em;
+  padding-left: 7.5em;
 }
 
 .rope3-right {
