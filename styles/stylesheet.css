@@ -8,7 +8,7 @@ body {
   background: linear-gradient(195deg, #FF847D, #A96A9C, #475879) fixed;
   min-height: 100%; }
 
-section {
+#sign {
   padding: 5rem;
   margin: 20vh auto 0;
   width: 60%;
@@ -41,6 +41,8 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0 auto;
   width: 55%;
   -ms-flex-pack: distribute;
@@ -52,7 +54,7 @@ nav {
           animation: drop 1s ease-in-out; }
   nav #portfolio {
     background-color: #475879;
-    border: 0.5rem double #FF847D;
+    border: 0.25rem solid #FF847D;
     -webkit-box-shadow: 5px 5px #2F4858;
             box-shadow: 5px 5px #2F4858;
     padding: 1rem 2rem;
@@ -65,10 +67,10 @@ nav {
     transition: all 0.25s linear; }
     nav #portfolio:hover {
       background-color: #FF847D;
-      border: 0.5rem double #475879; }
+      border-color: #475879; }
   nav #resume {
     background-color: #475879;
-    border: 0.5rem double #FF847D;
+    border: 0.25rem solid #FF847D;
     -webkit-box-shadow: 5px 5px #2F4858;
             box-shadow: 5px 5px #2F4858;
     padding: 1rem 2rem;
@@ -81,10 +83,10 @@ nav {
     transition: all 0.25s linear; }
     nav #resume:hover {
       background-color: #FF847D;
-      border: 0.5rem double #475879; }
+      border-color: #475879; }
   nav #about {
     background-color: #475879;
-    border: 0.5rem double #FF847D;
+    border: 0.25rem solid #FF847D;
     -webkit-box-shadow: 5px 5px #2F4858;
             box-shadow: 5px 5px #2F4858;
     padding: 1rem 2rem;
@@ -97,7 +99,7 @@ nav {
     transition: all 0.25s linear; }
     nav #about:hover {
       background-color: #FF847D;
-      border: 0.5rem double #475879; }
+      border-color: #475879; }
 
 @-webkit-keyframes drop {
   0% {
@@ -234,5 +236,71 @@ nav {
   100% {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
+.rope1-left {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  padding-left: 9em; }
+
+.rope1-right {
+  display: block;
+  position: absolute;
+  bottom: 100%; }
+
+.rope2-left {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  padding-left: 6em; }
+
+.rope2-right {
+  display: block;
+  position: absolute;
+  bottom: 100%; }
+
+.rope3-left {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  padding-left: 8em; }
+
+.rope3-right {
+  display: block;
+  position: absolute;
+  bottom: 100%; }
+
+@media (max-width: 1149px) {
+  #sign {
+    width: 80%; }
+
+  nav {
+    width: 75%; } }
+@media (max-width: 960px) {
+  #sign {
+    width: 90%; }
+
+  h1 {
+    font-size: 2rem; }
+
+  h2 {
+    font-size: 1.5rem; }
+
+  nav {
+    width: 85%; }
+
+  #portfolio {
+    font-size: .75rem; }
+
+  #resume {
+    font-size: .75rem; }
+
+  #about {
+    font-size: .75rem; }
+
+  .pixelart-to-css {
+    display: none; } }
+@media (max-width: 660px) {
+  #sign {
+    padding: 5rem 2rem; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
