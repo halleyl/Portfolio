@@ -104,7 +104,8 @@ nav {
 @-webkit-keyframes drop {
   0% {
     -webkit-transform: translateY(-200px);
-            transform: translateY(-200px); }
+            transform: translateY(-200px);
+    z-index: -1; }
   60% {
     -webkit-transform: translateY(10px);
             transform: translateY(10px); }
@@ -164,15 +165,18 @@ nav {
             transform: translateY(0); }
   99% {
     -webkit-transform: translateY(1px);
-            transform: translateY(1px); }
+            transform: translateY(1px);
+    z-index: -1; }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0); } }
+            transform: translateY(0);
+    z-index: 1; } }
 
 @keyframes drop {
   0% {
     -webkit-transform: translateY(-200px);
-            transform: translateY(-200px); }
+            transform: translateY(-200px);
+    z-index: -1; }
   60% {
     -webkit-transform: translateY(10px);
             transform: translateY(10px); }
@@ -232,10 +236,12 @@ nav {
             transform: translateY(0); }
   99% {
     -webkit-transform: translateY(1px);
-            transform: translateY(1px); }
+            transform: translateY(1px);
+    z-index: -1; }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0); } }
+            transform: translateY(0);
+    z-index: 1; } }
 .rope1-left {
   display: block;
   position: absolute;
@@ -305,17 +311,33 @@ nav {
     padding: 5rem 2rem; } }
 @media (max-width: 660px) {
   nav {
+    z-index: 1;
     top: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    nav #portfolio {
-      margin: 1rem 0 0.5rem; }
-    nav #resume {
-      margin: .5rem 0; }
-    nav #about {
-      margin: .5rem 0; }
+
+  #portfolio {
+    margin: 1rem 0 .5rem;
+    text-align: center; }
+    #portfolio:hover {
+      background-color: #FF847D;
+      border-color: #475879; }
+
+  #resume {
+    margin: .5rem 0;
+    text-align: center; }
+    #resume:hover {
+      background-color: #FF847D;
+      border-color: #475879; }
+
+  #about {
+    margin: .5rem 0;
+    text-align: center; }
+    #about:hover {
+      background-color: #FF847D;
+      border-color: #475879; }
 
   .rope1-left {
     display: none; }

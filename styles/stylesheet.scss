@@ -108,6 +108,7 @@ nav {
 @keyframes drop {
   0% {
     transform: translateY(-200px);
+    z-index: -1;
   }
   60% {
     transform: translateY(10px);
@@ -168,9 +169,11 @@ nav {
   }
   99% {
     transform: translateY(1px);
+    z-index: -1;
   }
   100% {
     transform: translateY(0);
+    z-index: 1;
   }
 }
 
@@ -257,20 +260,36 @@ nav {
 }
 
 @media(max-width:660px) {
-  // TODO: Change positioning of nav buttons to stack veritcally
   nav {
+    z-index: 1;
     top: 0;
     flex-direction: column;
-    #portfolio {
-      margin: 1rem 0 .5rem ;
-    }
-    #resume {
-      margin: .5rem 0;
-    }
-    #about {
-      margin: .5rem 0;
+  }
+  #portfolio {
+    margin: 1rem 0 .5rem;
+    text-align: center;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
     }
   }
+  #resume {
+    margin: .5rem 0;
+    text-align: center;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+  }
+  #about {
+    margin: .5rem 0;
+    text-align: center;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+  }
+
   .rope1-left {
     display: none;
   }
