@@ -334,5 +334,12 @@ nav {
 
   .rope3-right {
     display: none; } }
+@media (max-width: 560px) {
+  #sign {
+    margin: 5vh auto 0;
+    padding: 2rem 2rem; }
+
+  h1 {
+    line-height: 1.5em; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
