@@ -1,0 +1,326 @@
+$light: #FF847D;
+$medium: #A96A9C;
+$dark: #475879;
+$shadow: #2F4858;
+
+$display: 'Press Start 2P', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(195deg, $light, $medium, $dark) fixed;
+  min-height: 100%;
+  font-size: 100%;
+}
+
+#sign {
+  padding: 5rem;
+  margin: 20vh auto 0;
+  width: 60%;
+  border: 1rem double $light;
+  border-radius: 2rem;
+  box-shadow: 5px 5px $shadow;
+  background: linear-gradient(165deg, $light, $medium, $dark) fixed;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: $display;
+  text-shadow: 5px 5px $shadow;
+}
+
+h2 {
+  color: $light;
+  font-size: 2rem;
+  text-align: center;
+  margin: 5vh 0 0;
+  font-family: $body;
+  font-weight: 200;
+  text-shadow: 1px 1px $shadow;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 55%;
+  justify-content: space-around;
+  position: relative;
+  top: 50px;
+  z-index: -1;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  #portfolio {
+    background-color: $dark;
+    border: .25rem solid $light;
+    box-shadow: 5px 5px $shadow;  
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    z-index: -1;
+    font-family: $display;
+    text-shadow: 2px 2px $shadow;
+    color: white;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+    transition: all 0.25s linear;
+  }
+  #resume {
+    background-color: $dark;
+    border: .25rem solid $light;
+    box-shadow: 5px 5px $shadow;  
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    z-index: -1;
+    font-family: $display;
+    text-shadow: 2px 2px $shadow;
+    color: white;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+    transition: all 0.25s linear;
+}
+  #about {
+    background-color: $dark;
+    border: .25rem solid $light;
+    box-shadow: 5px 5px $shadow;  
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    z-index: -1;
+    font-family: $display;
+    text-shadow: 2px 2px $shadow;
+    color: white;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+    transition: all 0.25s linear;
+  }
+  animation: drop 1s ease-in-out;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(-200px);
+    z-index: -1;
+  }
+  60% {
+    transform: translateY(10px);
+  }
+  65% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  85% {
+    transform: translateY(-5px);
+  }
+  86% {
+    transform: translateY(-4px);
+  }
+  87% {
+    transform: translateY(-3px);
+  }
+  88% {
+    transform: translateY(-2px);
+  }
+  89% {
+    transform: translateY(-1px);
+  }
+  90% {
+    transform: translateY(0);
+  }
+  91% {
+    transform: translateY(1px);
+  }
+  92% {
+    transform: translateY(2px);
+  }
+  93% {
+    transform: translateY(3px);
+  }
+  94% {
+    transform: translateY(2px);
+  }
+  95% {
+    transform: translateY(1px);
+  }
+  96% {
+    transform: translateY(0);
+  }
+  97% {
+    transform: translateY(-1px);
+  }
+  98% {
+    transform: translateY(0);
+  }
+  99% {
+    transform: translateY(1px);
+    z-index: -1;
+  }
+  100% {
+    transform: translateY(0);
+    z-index: 1;
+  }
+}
+
+.rope1-left {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  padding-left: 8.75em;
+}
+
+.rope1-right {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+}
+
+.rope2-left {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  padding-left: 5.75em;
+}
+
+.rope2-right {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+}
+
+.rope3-left {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  padding-left: 7.5em;
+}
+
+.rope3-right {
+  display: block;
+  position: absolute;
+  bottom: 100%;
+}
+
+@media(max-width:1149px) {
+  #sign {
+    width: 80%;
+  }
+  nav {
+    width: 75%;
+  }
+}
+
+@media(max-width:970px) {
+  #sign {
+    width: 90%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  nav {
+    width: 85%;
+  }
+  #portfolio {
+    font-size: .9rem;
+  }
+  #resume {
+    font-size: .9rem;
+  }
+  #about {
+    font-size: .9rem;
+  }
+  .pixelart-to-css {
+    display: none;
+  }
+}
+
+@media(max-width:680px) {
+  #sign {
+    margin: 10vh auto 0;
+    padding: 5rem 2rem;
+  }
+}
+
+@media(max-width:660px) {
+  nav {
+    z-index: 1;
+    top: 0;
+    flex-direction: column;
+  }
+  #portfolio {
+    margin: 1rem 0 .5rem;
+    text-align: center;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+  }
+  #resume {
+    margin: .5rem 0;
+    text-align: center;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+  }
+  #about {
+    margin: .5rem 0;
+    text-align: center;
+    &:hover {
+      background-color: $light;
+      border-color: $dark;
+    }
+  }
+  .rope1-left {
+    display: none;
+  }
+  .rope1-right {
+    display: none;
+  }
+  .rope2-left {
+    display: none;
+  }
+  .rope2-right {
+    display: none;
+  }
+  .rope3-left {
+    display: none;
+  }
+  .rope3-right {
+    display: none;
+  }
+}
+
+@media(max-width:560px) {
+  #sign {
+    margin: 5vh auto 0;
+    padding: 2rem 2rem;
+  }
+  h1 {
+    line-height: 1.5em;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}

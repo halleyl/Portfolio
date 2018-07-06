@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lauren Halley &boxplus; Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="styles/portfolio.css" type="text/css">
+  <!-- End Stylesheets -->
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Lauren Halley</h1>
+    <h2>Front End Developer</h2>
+    <div id="icons">
+      <a href="https://www.linkedin.com/in/lhalley/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/halleyl" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+      <a href="mailto:lauren@xerrio.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+    </div>
+    <nav>
+      <ul>
+        <a href="portfolio.html"><li>Portfolio</li></a>
+        <a href="resume.html"><li>Resume</li></a>
+        <a href="about.html"><li>About Me</li></a>
+      </ul>
+   </nav>
+  </header>
+  <!-- End Header -->
+  <!-- Content -->
+  <section>
+    <h3>Portfolio</h3>
+    <div id="thumbs">
+      <img src="images/thumb-fesc.jpg" alt="Florida Energy Systems Consortium" class="thumbact" id="fesc" onclick="drawSlide(0)">
+      <img src="images/thumb-www.jpg" alt="Winter Wear Warehouse" class="thumb" id="www" onclick="drawSlide(1)">
+      <img src="images/thumb-adv.jpg" alt="Adventure" class="thumb" id="adv" onclick="drawSlide(2)">
+      <img src="images/thumb-stp.jpg" alt="Straight to the Point Archery" class="thumb" id="stp" onclick="drawSlide(3)">
+      <img src="images/thumb-tfr.jpg" alt="Technical Feasibility Review" class="thumb" id="tfr" onclick="drawSlide(4)">
+    </div>
+    <figure>
+      <img src="images/fesc.jpg" alt="Project Slide" id="projPic">
+      <article>
+        <h4 id="projName">Florida Energy Systems Consortium</h4>
+        <p id="projDesc">Assignment for UW Certificate program. Redesign and reorganization of <a href="http://floridaenergy.ufl.edu/" target="_blank">existing website</a>, incorportating clear information architecture and good user flow.</p>
+        <ul id="skillList">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Vue.js framework</li>
+          <li>Google Charts API</li>
+        </ul>
+      </article>
+    </figure>
+  </section>
+  <!-- End Content -->
+  <!-- Footer -->
+  <footer>&copy; 2018 &bull; Lauren Halley</footer>
+  <!-- End Footer -->
+  <!-- JS for portfolio gallery -->
+  <script src="js/portfolio.js"></script>
+</body>
+</html>

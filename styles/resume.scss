@@ -1,0 +1,61 @@
+// SCSS variables
+
+$light: #FF847D;
+$medium: #A96A9C;
+$dark: #475879;
+$shadow: #2F4858;
+
+$display: 'Press Start 2P', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+// Resume page content styles
+
+section {
+  width: 96%;
+  margin: 1rem auto;
+  background-color: rgba(255,255,255, 0.75);
+  border-radius: 1rem;
+  box-shadow: 5px 5px $medium;
+}
+
+h3 {
+  font-family: $display;
+  color: $shadow;
+  padding: 1rem;
+  border-bottom: 1px dashed $shadow;
+}
+
+article {
+  font-family: $body;
+  font-size: 1rem;
+  color: $shadow;
+  padding: 1rem 2rem;
+}
+
+h4 {
+  font-family: $body;
+  background-color: $dark;
+  margin-bottom: 1rem;
+  padding: .25rem;
+  color: white;
+  border-radius: 1rem;
+  text-indent: 1rem;
+}
+
+ul {
+  list-style: square;
+  margin-top: .5rem;
+  li {
+    margin-left: 2rem;
+  }
+}
+
+h5 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+p {
+  margin-left: 1rem;
+}

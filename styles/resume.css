@@ -1,0 +1,44 @@
+section {
+  width: 96%;
+  margin: 1rem auto;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 1rem;
+  -webkit-box-shadow: 5px 5px #A96A9C;
+          box-shadow: 5px 5px #A96A9C; }
+
+h3 {
+  font-family: "Press Start 2P", sans-serif;
+  color: #2F4858;
+  padding: 1rem;
+  border-bottom: 1px dashed #2F4858; }
+
+article {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #2F4858;
+  padding: 1rem 2rem; }
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  background-color: #475879;
+  margin-bottom: 1rem;
+  padding: .25rem;
+  color: white;
+  border-radius: 1rem;
+  text-indent: 1rem; }
+
+ul {
+  list-style: square;
+  margin-top: .5rem; }
+  ul li {
+    margin-left: 2rem; }
+
+h5 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem; }
+
+p {
+  margin-left: 1rem; }
+
+/*# sourceMappingURL=resume.css.map */

@@ -1,0 +1,107 @@
+// SCSS variables
+
+$light: #FF847D;
+$medium: #A96A9C;
+$dark: #475879;
+$shadow: #2F4858;
+
+$display: 'Press Start 2P', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+// Portfolio page content styles
+
+section {
+  width: 96%;
+  margin: 1rem auto;
+  background-color: rgba(255,255,255, 0.75);
+  border-radius: 1rem;
+  box-shadow: 5px 5px $medium;
+}
+
+h3 {
+  font-family: $display;
+  color: $shadow;
+  padding: 1rem;
+  border-bottom: 1px dashed $shadow;
+}
+
+#thumbs {
+  padding: 1rem 2rem;
+  background-color: rgba(255,255,255,0.25);
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed $shadow;
+}
+
+.thumb {
+  width: 11%;
+  max-width: 7.5rem;
+  margin: 0 1%;
+  //-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 99%, 0% 80%);
+  //clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 99%, 0% 80%);
+  border-radius: .5rem;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: .5;
+    &:hover {
+    animation: bounce .5s linear;
+    opacity: 1;
+  }
+  transition: opacity .25s linear;
+}
+
+.thumbact {
+  width: 11%;
+  max-width: 7.5rem;
+  margin: 0 1%;
+  opacity: 1;
+  border-radius: .5rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  padding: 0 2rem 2rem;
+  img {
+    width: 60%;
+    max-width: 60%;
+    height: 40%;
+    display: inline-block;
+    border: 1px solid $medium;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 .75rem .75rem;
+    padding: .5rem;
+    font-family: $display;
+    color: $medium;
+    border-bottom: 1px dashed $medium;
+    line-height: 1.5em;
+  }
+  
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    font-family: $body;
+    color: $shadow;
+    padding-bottom: 1rem;
+  }
+  a {
+    color: $shadow;
+    text-decoration-skip: ink;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  ul {
+    margin-left: 3rem;
+  }
+  li {
+    font-family: $body;
+    color: $shadow;
+    list-style: square;
+  }
+}
