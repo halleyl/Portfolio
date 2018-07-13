@@ -17,21 +17,54 @@ article {
   font-size: 1rem;
   color: #2F4858;
   padding: 1rem 2rem; }
+  article ul {
+    list-style: square;
+    margin-top: .5rem; }
+    article ul li {
+      margin-left: 2rem; }
+
+a {
+  color: #2F4858;
+  text-decoration: none; }
+  a:hover {
+    color: white;
+    text-decoration: none; }
+
+#res-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  #res-head i {
+    color: white;
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    padding: .5rem;
+    margin-left: 1rem;
+    background-color: #A96A9C;
+    border-radius: .4rem;
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear; }
+    #res-head i:hover {
+      background-color: #FF847D;
+      -webkit-animation: wiggle .5s linear;
+              animation: wiggle .5s linear; }
 
 h4 {
   font-family: "Montserrat", sans-serif;
-  background-color: #475879;
+  background-color: #A96A9C;
   margin-bottom: 1rem;
   padding: .25rem;
   color: white;
   border-radius: 1rem;
   text-indent: 1rem; }
-
-ul {
-  list-style: square;
-  margin-top: .5rem; }
-  ul li {
-    margin-left: 2rem; }
 
 h5 {
   font-size: 1rem;

@@ -30,24 +30,55 @@ article {
   font-size: 1rem;
   color: $shadow;
   padding: 1rem 2rem;
-}
-
-h4 {
-  font-family: $body;
-  background-color: $dark;
-  margin-bottom: 1rem;
-  padding: .25rem;
-  color: white;
-  border-radius: 1rem;
-  text-indent: 1rem;
-}
-
-ul {
+  ul {
   list-style: square;
   margin-top: .5rem;
   li {
     margin-left: 2rem;
   }
+}
+
+}
+
+a {
+  color: $shadow;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
+#res-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  i {
+    color: white;
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    padding: .5rem;
+    margin-left: 1rem;
+    background-color: $medium;
+    border-radius: .4rem;
+    &:hover {
+      background-color: $light;
+      animation: wiggle .5s linear;
+    }
+  transition: all .25s linear;
+  }
+}
+
+h4 {
+  font-family: $body;
+  background-color: $medium;
+  margin-bottom: 1rem;
+  padding: .25rem;
+  color: white;
+  border-radius: 1rem;
+  text-indent: 1rem;
 }
 
 h5 {

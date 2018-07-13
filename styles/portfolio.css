@@ -26,12 +26,14 @@ h3 {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .5;
-  -webkit-transition: opacity .25s linear;
-  transition: opacity .25s linear; }
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear; }
   .thumb:hover {
     -webkit-animation: bounce .5s linear;
             animation: bounce .5s linear;
-    opacity: 1; }
+    opacity: 1;
+    -webkit-filter: unset;
+            filter: unset; }
 
 .thumbact {
   width: 11%;
@@ -80,10 +82,75 @@ figure {
       color: white;
       text-decoration: none; }
   figure ul {
-    margin-left: 3rem; }
+    margin-left: 3rem;
+    margin-bottom: 2rem; }
   figure li {
     font-family: "Montserrat", sans-serif;
     color: #2F4858;
     list-style: square; }
+
+#projLink {
+  display: block;
+  text-align: center;
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px #2F4858;
+  background-color: #A96A9C;
+  border: 0.25rem solid #FF847D;
+  -webkit-box-shadow: 5px 5px #475879;
+          box-shadow: 5px 5px #475879;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear; }
+  #projLink:hover {
+    background-color: #FF847D;
+    border-color: #A96A9C; }
+
+#repoLink {
+  display: block;
+  text-align: center;
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px #2F4858;
+  background-color: #A96A9C;
+  border: 0.25rem solid #FF847D;
+  -webkit-box-shadow: 5px 5px #475879;
+          box-shadow: 5px 5px #475879;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear; }
+  #repoLink:hover {
+    background-color: #FF847D;
+    border-color: #A96A9C; }
+
+@media (max-width: 700px) {
+  figure {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    figure img {
+      width: 100%;
+      max-width: 100%;
+      -ms-flex-item-align: center;
+          align-self: center; }
+    figure h4 {
+      padding-top: 1.25rem; }
+
+  .thumb, .thumbact {
+    width: 16%;
+    max-width: 7.5rem;
+    margin: 0 1%; } }
+@media (max-width: 550px) {
+  .thumb, .thumbact {
+    width: 22%;
+    max-width: 7.5rem;
+    margin: 0 1%; } }
 
 /*# sourceMappingURL=portfolio.css.map */
