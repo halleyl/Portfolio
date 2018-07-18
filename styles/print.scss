@@ -76,7 +76,7 @@ a {
 
 h4 {
   font-family: $body;
-  background-color: none;
+  background-color: white;
   margin-bottom: 1rem;
   padding: .25rem;
   color: $medium;
@@ -107,7 +107,7 @@ p {
 div[class^="col"] {
   display: inline-block;
   margin: .25rem;
-  background-color: none;
+  background-color: white;
   padding: .25rem;
 }
 
