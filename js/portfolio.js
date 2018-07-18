@@ -56,8 +56,7 @@ let slides = [
     screenshot: "images/email1.jpg",
     text: "Marketing email for Barefoot Yoga Company. I created this email layout in Photoshop and coded it in MailChimp for distribution to wholesale customers.",
     list: `<li>HTML5</li>
-          <li>CSS3</li>
-          <li>Photoshop</li>`,
+          <li>CSS3</li>`,
     thumbId: "em1",
     project: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email1-full.jpg",
     repo: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email1-full.jpg"
@@ -66,8 +65,7 @@ let slides = [
     screenshot: "images/email2.jpg",
     text: "Marketing email for Barefoot Yoga Company. I created this email layout in Photoshop and coded it in MailChimp for distribution to retail clothing customers.",
     list: `<li>HTML5</li>
-          <li>CSS3</li>
-          <li>Photoshop</li>`,
+          <li>CSS3</li>`,
     thumbId: "em2",
     project: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email2-full.jpg",
     repo: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email2-full.jpg"
