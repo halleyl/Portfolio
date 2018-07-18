@@ -163,9 +163,8 @@ nav ul {
     li {
       text-align: center;
       font-size: 1rem;
-    }
-    li:first-of-type {
-      border-top: none;
+      padding: 1.25rem .25rem;
+      margin: 0 .25rem;
     }
   }
 }

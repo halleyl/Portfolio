@@ -57,6 +57,9 @@ a {
       -webkit-animation: wiggle .5s linear;
               animation: wiggle .5s linear; }
 
+#webadd {
+  display: none; }
+
 h4 {
   font-family: "Montserrat", sans-serif;
   background-color: #A96A9C;
@@ -67,11 +70,70 @@ h4 {
   text-indent: 1rem; }
 
 h5 {
+  font-weight: 400;
   font-size: 1rem;
   margin-top: 1rem;
   margin-left: 1rem; }
 
 p {
   margin-left: 1rem; }
+
+.job-summary {
+  margin: 1.5rem 0 1.5rem 1rem; }
+
+#skills {
+  width: 100%;
+  list-style: none;
+  margin-left: -1rem; }
+
+div[class^="col"] {
+  display: inline-block;
+  margin: .25rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: .25rem; }
+
+.col2 {
+  width: 25%; }
+
+.col3 {
+  width: 25%; }
+
+@media (max-width: 950px) {
+  .col2 {
+    width: 40%; }
+
+  .col3 {
+    width: 40%; } }
+@media (max-width: 700px) {
+  .col2 {
+    width: 45%; }
+
+  .col3 {
+    width: 45%; } }
+@media (max-width: 600px) {
+  #skills {
+    max-width: 100%; }
+
+  #skills li {
+    border-bottom: 1px dashed #A96A9C;
+    padding-bottom: .25rem;
+    margin-bottom: .25rem; }
+
+  .col2 {
+    width: 100%; }
+
+  .col3 {
+    width: 100%; } }
+@media (max-width: 450px) {
+  #res-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    #res-head i {
+      margin-top: 1rem; } }
 
 /*# sourceMappingURL=resume.css.map */

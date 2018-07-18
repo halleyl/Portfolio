@@ -69,6 +69,11 @@ a {
   }
 }
 
+#webadd {
+  display: block;
+  margin-left: 1rem;
+}
+
 h4 {
   font-family: $body;
   background-color: none;
@@ -89,6 +94,31 @@ h5 {
 p {
   margin-left: 1rem;
 }
+
+#skills {
+  width: 100%;
+  list-style: none;
+  margin-left: -1rem;
+  li {
+    border-bottom: 1px dashed $light;
+  }
+}
+
+div[class^="col"] {
+  display: inline-block;
+  margin: .25rem;
+  background-color: none;
+  padding: .25rem;
+}
+
+.col2 {
+  width: 45%;
+}
+
+.col3 {
+  width: 45%;
+}
+
 
 footer {
   display: none;

@@ -199,9 +199,9 @@ nav ul {
 @media (max-width: 470px) {
   nav ul li {
     text-align: center;
-    font-size: 1rem; }
-  nav ul li:first-of-type {
-    border-top: none; } }
+    font-size: 1rem;
+    padding: 1.25rem .25rem;
+    margin: 0 .25rem; } }
 footer {
   font-family: "Montserrat", sans-serif;
   color: white;
