@@ -17,7 +17,7 @@ let slides = [
     text: "Assignment for UW Certificate program. Create simple, responsive eCommerce website layout based on provided graphic mockups for <a href='https://github.com/halleyl/html200-ecommerce-project/blob/master/images/mock-1100px.png' target='_blank'>desktop</a> and <a href='https://github.com/halleyl/html200-ecommerce-project/blob/master/images/mock-320px.png' target='_blank'>mobile</a> displays.",
     list: `<li>HTML5</li>
           <li>CSS3</li>
-          <li>Javascript</li>`,
+          <li>JavaScript</li>`,
     thumbId: "www",
     project: "https://halleyl.github.io/html200-ecommerce-project/",
     repo: "https://github.com/halleyl/html200-ecommerce-project/tree/gh-pages"
@@ -27,7 +27,7 @@ let slides = [
     text: "Assignment for UW Certificate program. Create a Battleship style game with the hidden &lsquo;prize&rsquo; at a randomized location.",
     list: `<li>HTML5</li>
           <li>CSS3</li>
-          <li>Javascript</li>`,
+          <li>JavaScript</li>`,
     thumbId: "adv",
     project: "https://halleyl.github.io/adventure/",
     repo: "https://github.com/halleyl/adventure"
@@ -47,7 +47,7 @@ let slides = [
     list: `<li>Markdown</li>
           <li>HTML5</li>
           <li>CSS3</li>
-          <li>Javascript</li>`,
+          <li>JavaScript</li>`,
     thumbId: "tfr",
     project: "https://github.com/halleyl/tech-feas/blob/gh-pages/technical-feasibility-review.pdf",
     repo: "https://github.com/halleyl/tech-feas"
