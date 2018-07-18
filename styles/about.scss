@@ -1,0 +1,104 @@
+// SCSS variables
+
+$light: #FF847D;
+$medium: #A96A9C;
+$dark: #475879;
+$shadow: #2F4858;
+
+$display: 'Press Start 2P', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+// About page content styles
+
+section {
+  width: 96%;
+  margin: 1rem auto;
+  background-color: rgba(255,255,255, 0.75);
+  border-radius: 1rem;
+  box-shadow: 5px 5px $medium;
+}
+
+h3 {
+  font-family: $display;
+  color: $shadow;
+  padding: 1rem;
+  border-bottom: 1px dashed $shadow;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  font-family: $body;
+  font-size: 1rem;
+  color: $shadow;
+  padding: 1rem 2rem;
+  p {
+    margin-bottom: 1rem;
+  }
+  figure {
+    width: 25%;
+    padding: 1rem;
+    img {
+      width: 100%;
+      max-width: 600px;
+      max-height: 600px;
+      border-radius: 1rem;
+      box-shadow: 5px 5px $shadow;
+      filter: grayscale(100%);
+      &:hover {
+        filter: unset;
+      }
+      transition: all .5s linear;
+    }
+  }
+  div {
+    width: 70%;
+    max-width: 40rem;
+    padding: 1rem;
+  }
+}
+
+a {
+  color: $shadow;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media(max-width:1000px) {
+  article {
+    figure {
+      width: 35%;
+    }
+    div {
+      width: 60%;
+    }
+  }
+}
+
+@media(max-width:700px) {
+  article {
+    figure {
+      width: 45%;
+    }
+    div {
+      width: 50%;
+    }
+  }
+}
+
+@media(max-width:600px) {
+  article {
+    display: flex;
+    flex-direction: column;
+    figure {
+      width: 60%;
+      align-self: center;
+    }
+    div {
+      width: 100%;
+    }
+  }
+}
