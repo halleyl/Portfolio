@@ -8,4 +8,4 @@
   
   ## Author
   Lauren Halley
-  me@laurenhalley.com
+  [me@laurenhalley.com](mailto:me@laurenhalley.com)
