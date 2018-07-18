@@ -73,7 +73,12 @@ nav ul {
       justify-content: space-around; }
   nav ul a {
     color: #FF847D;
-    text-decoration: none; }
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 1.5rem;
+    margin: -1.5rem; }
   nav ul li {
     font-size: 1.25rem;
     list-style: none;

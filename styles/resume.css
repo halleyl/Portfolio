@@ -56,6 +56,10 @@ a {
       background-color: #FF847D;
       -webkit-animation: wiggle .5s linear;
               animation: wiggle .5s linear; }
+  #res-head h6 {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: #2F4858; }
 
 #webadd {
   display: none; }
@@ -76,6 +80,7 @@ h5 {
   margin-left: 1rem; }
 
 p {
+  font-size: 1rem;
   margin-left: 1rem; }
 
 .job-summary {

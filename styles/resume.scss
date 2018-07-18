@@ -68,6 +68,11 @@ a {
     }
   transition: all .25s linear;
   }
+  h6 {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: $shadow;
+  }
 }
 
 #webadd {
@@ -92,6 +97,7 @@ h5 {
 }
 
 p {
+  font-size: 1rem;
   margin-left: 1rem;
 }
 

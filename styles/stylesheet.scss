@@ -80,6 +80,11 @@ nav ul {
   a {
     color: $light;
     text-decoration: none;
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 1.5rem;     
+    margin: -1.5rem;
   }
   li {
     font-size: 1.25rem;
