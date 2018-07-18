@@ -51,6 +51,26 @@ let slides = [
     thumbId: "tfr",
     project: "https://github.com/halleyl/tech-feas/blob/gh-pages/technical-feasibility-review.pdf",
     repo: "https://github.com/halleyl/tech-feas"
+  },{
+    title: "Barefoot Yoga Email",
+    screenshot: "images/email1.jpg",
+    text: "Marketing email for Barefoot Yoga Company. I created this email layout in Photoshop and coded it in MailChimp for distribution to wholesale customers.",
+    list: `<li>HTML5</li>
+          <li>CSS3</li>
+          <li>Photoshop</li>`,
+    thumbId: "em1",
+    project: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email1-full.jpg",
+    repo: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email1-full.jpg"
+  },{
+    title: "Barefoot Yoga Email",
+    screenshot: "images/email2.jpg",
+    text: "Marketing email for Barefoot Yoga Company. I created this email layout in Photoshop and coded it in MailChimp for distribution to retail clothing customers.",
+    list: `<li>HTML5</li>
+          <li>CSS3</li>
+          <li>Photoshop</li>`,
+    thumbId: "em2",
+    project: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email2-full.jpg",
+    repo: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email2-full.jpg"
   }
 ]
 
@@ -80,6 +100,17 @@ function drawSlide(x) {
 
   if(inactiveThumb) {
     inactiveThumb.setAttribute("class","thumb")
+  }
+  
+  // Remove Repo link for thumbs where it doesn't apply
+  
+  var noRepo = document.getElementById("repoLink")
+  
+  if(x == 5 || x == 6) {
+    noRepo.classList.add("hide")
+    // console.log(noRepo.classList)
+  } else if(noRepo.classList.contains("hide")) {
+    noRepo.classList.remove("hide")
   }
 
   // Set active thumbnail image
