@@ -19,7 +19,9 @@ section {
 }
 
 h3 {
-  font-family: $display;
+  font-family: $body;
+  font-weight: 200;
+  font-size: 1.5rem;
   color: $shadow;
   padding: 1rem;
   border-bottom: 1px dashed $shadow;
@@ -36,7 +38,7 @@ article {
     margin-bottom: 1rem;
   }
   figure {
-    width: 25%;
+    width: 30%;
     padding: 1rem;
     img {
       width: 100%;
@@ -57,6 +59,48 @@ article {
     padding: 1rem;
   }
 }
+
+span {
+  font-family: $display;
+  color: $dark;
+  display: inline-block;
+  text-shadow: 1px 1px $light;
+}
+
+@keyframes ping {
+  0% {
+    transform: translateY(0)
+  }
+  10% {
+    transform: translateY(2px)
+  }
+  15% {
+    transform: translateY(1px)
+  }
+  25% {
+    transform: translateY(0)
+  }
+  50% {
+    transform: translateY(-2px)
+  }
+  100% {
+    transform: translateY(0)
+  }
+}
+
+
+#C1 {
+  animation: ping 1.2s linear infinite;
+}
+
+#S1 {
+  animation: ping 1.2s linear .4s infinite;
+}
+
+#S2 {
+  animation: ping 1.2s linear .8s infinite;
+}
+
 
 a {
   color: $shadow;

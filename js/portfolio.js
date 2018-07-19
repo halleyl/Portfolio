@@ -2,7 +2,7 @@ let slides = [
   {
     title: "Florida Energy Systems Consortium",
     screenshot: "images/fesc.jpg",
-    text: "Assignment for UW Certificate program. Redesign and reorganization of <a href='http://floridaenergy.ufl.edu/' target='_blank'>existing website</a>, incorportating clear information architecture, responsivity and intuitive user flow. I designed the Home, Education, and Industry pages, as well as an Energy Data sub-page using Google Charts API.",
+    text: "I was tasked with redesigning and reorganizing an <a href='http://floridaenergy.ufl.edu/' target='_blank'>existing website</a>, incorportating clear information architecture, responsivity and intuitive user flow. I designed the Home, Education, and Industry pages, as well as an Energy Data sub-page using Google Charts API.",
     list: `<li>HTML5</li>
           <li>CSS3</li>
           <li>SCSS</li>
@@ -14,7 +14,7 @@ let slides = [
   },{
     title: "Winter Wear Warehouse",
     screenshot: "images/www.jpg",
-    text: "Assignment for UW Certificate program. Create simple, responsive eCommerce website layout based on provided graphic mockups for <a href='https://github.com/halleyl/html200-ecommerce-project/blob/master/images/mock-1100px.png' target='_blank'>desktop</a> and <a href='https://github.com/halleyl/html200-ecommerce-project/blob/master/images/mock-320px.png' target='_blank'>mobile</a> displays.",
+    text: "I created a simple, responsive e-commerce website layout based on provided graphic mockups for <a href='https://github.com/halleyl/html200-ecommerce-project/raw/master/images/mock-1100px.png' target='_blank'>desktop</a> and <a href='https://github.com/halleyl/html200-ecommerce-project/raw/master/images/mock-320px.png' target='_blank'>mobile</a> displays. I incorporated a JavaScript 'Add to Cart' button, which reports the number of products and shopping cart total to the console.",
     list: `<li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>`,
@@ -24,7 +24,7 @@ let slides = [
  },{
     title: "Adventure Game",
     screenshot: "images/adventure.jpg",
-    text: "Assignment for UW Certificate program. Create a Battleship style game with the hidden &lsquo;prize&rsquo; at a randomized location.",
+    text: "For this project, I designed a Battleship style game with the hidden &lsquo;prize&rsquo; at a randomized location. I used conditional if/else statements to ensure that the prize is not located in the starting square, to notify the user when they try to move outside of the grid, and to let them know when they've won.",
     list: `<li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>`,
@@ -34,16 +34,16 @@ let slides = [
   },{
     title: "Straight to the Point Archery",
     screenshot: "images/stp.jpg",
-    text: "Group project for UW Certificate program. Design a website for a fictional archery school in collaboration with 3 classmates. I was responsible for the site's About and Instructors pages, as well as  header and footer layouts.",
+    text: "I collaborated with three classmates who were new to HTML and CSS, to design a website for a fictional archery school. I was responsible for the site's About and Instructors pages, as well as the footer layout.",
     list: `<li>HTML5</li>
           <li>CSS3</li>`,
     thumbId: "stp",
-    project: "https://halleyl.github.io/stp-archery/",
+    project: "https://halleyl.github.io/stp-archery/about.html",
     repo: "https://github.com/halleyl/stp-archery/tree/gh-pages"
   },{
     title: "Technical Feasibility Review",
     screenshot: "images/tfr.jpg",
-    text: "Assignment for UW Certificate program. We were presented with 3 potential design choices, and were asked to evaluate the time needed to complete them, their feasibility as design choices, and how we would go about accomplishing the task on a high level. I included links to simple proof-of-concept pages that I created to demonstrate viability.",
+    text: "I was presented with 3 potential design choices, and asked to evaluate the time needed to complete them, their feasibility as design choices, and how I would go about accomplishing the task on a high level. I chose to include links to simple proof-of-concept pages which I created to demonstrate viability. An industry professional used my document as an example of best practices in technical feasiblity reporting.",
     list: `<li>Markdown</li>
           <li>HTML5</li>
           <li>CSS3</li>
@@ -54,21 +54,21 @@ let slides = [
   },{
     title: "Barefoot Yoga Email",
     screenshot: "images/email1.jpg",
-    text: "Marketing email for Barefoot Yoga Company. I created this email layout in Photoshop and coded it in MailChimp for distribution to wholesale customers.",
+    text: "I created this email layout in Photoshop and coded it in MailChimp for distribution to wholesale customers.",
     list: `<li>HTML5</li>
           <li>CSS3</li>`,
     thumbId: "em1",
-    project: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email1-full.jpg",
-    repo: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email1-full.jpg"
+    project: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email1-full.jpg",
+    repo: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email1-full.jpg"
   },{
     title: "Barefoot Yoga Email",
     screenshot: "images/email2.jpg",
-    text: "Marketing email for Barefoot Yoga Company. I created this email layout in Photoshop and coded it in MailChimp for distribution to retail clothing customers.",
+    text: "I created this email layout in Photoshop and coded it in MailChimp for distribution to retail clothing customers.",
     list: `<li>HTML5</li>
           <li>CSS3</li>`,
     thumbId: "em2",
-    project: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email2-full.jpg",
-    repo: "https://github.com/halleyl/portfolio/blob/gh-pages/images/email2-full.jpg"
+    project: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg",
+    repo: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg"
   }
 ]
 
@@ -89,6 +89,9 @@ function drawSlide(x) {
   // Load link to project
   var project = document.getElementById("projLink")
   project.href = slides[x].project
+  // Load link to project (for main image)
+  var imageLink = document.getElementById("imgLink")
+  imageLink.href = slides[x].project
   // Load link to repo
   var repo = document.getElementById("repoLink")
   repo.href = slides[x].repo

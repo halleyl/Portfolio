@@ -11,7 +11,7 @@ body {
 
 #sign {
   padding: 5rem;
-  margin: 20vh auto 0;
+  margin: 10vh auto 0;
   width: 60%;
   border: 1rem double #FF847D;
   border-radius: 2rem;
@@ -20,20 +20,28 @@ body {
   background: linear-gradient(165deg, #FF847D, #A96A9C, #475879) fixed; }
 
 h1 {
-  color: white;
+  color: #475879;
   font-size: 2.5rem;
   text-align: center;
   font-family: "Press Start 2P", sans-serif;
-  text-shadow: 5px 5px #2F4858; }
+  text-shadow: 5px 5px #FF847D; }
 
 h2 {
-  color: #FF847D;
+  color: white;
   font-size: 2rem;
   text-align: center;
   margin: 5vh 0 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
-  text-shadow: 1px 1px #2F4858; }
+  text-shadow: 2px 2px #2F4858; }
+
+h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  padding: 1rem 0 0; }
 
 nav {
   display: -webkit-box;

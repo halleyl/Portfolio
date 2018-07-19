@@ -19,7 +19,9 @@ section {
 }
 
 h3 {
-  font-family: $display;
+  font-family: $body;
+  font-weight: 200;
+  font-size: 1.5rem;
   color: $shadow;
   padding: 1rem;
   border-bottom: 1px dashed $shadow;

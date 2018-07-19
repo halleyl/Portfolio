@@ -7,7 +7,9 @@ section {
           box-shadow: 5px 5px #A96A9C; }
 
 h3 {
-  font-family: "Press Start 2P", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
   color: #2F4858;
   padding: 1rem;
   border-bottom: 1px dashed #2F4858; }

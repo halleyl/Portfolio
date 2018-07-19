@@ -17,7 +17,7 @@
 <body>
   <!-- Header -->
   <header>
-    <h1>Lauren Halley</h1>
+    <h1><a href="index.html">Lauren Halley</a></h1>
     <h2>Front End Developer</h2>
     <div id="icons">
       <a href="https://www.linkedin.com/in/lhalley/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
@@ -37,19 +37,45 @@
   <section>
     <h3>Portfolio</h3>
     <div id="thumbs">
-      <img src="images/thumb-fesc.jpg" alt="Florida Energy Systems Consortium" class="thumbact" id="fesc" onclick="drawSlide(0)">
-      <img src="images/thumb-www.jpg" alt="Winter Wear Warehouse" class="thumb" id="www" onclick="drawSlide(1)">
-      <img src="images/thumb-adv.jpg" alt="Adventure" class="thumb" id="adv" onclick="drawSlide(2)">
-      <img src="images/thumb-stp.jpg" alt="Straight to the Point Archery" class="thumb" id="stp" onclick="drawSlide(3)">
-      <img src="images/thumb-tfr.jpg" alt="Technical Feasibility Review" class="thumb" id="tfr" onclick="drawSlide(4)">
-      <img src="images/thumb-email1.jpg" alt="Marketing Email" class="thumb" id="em1" onclick="drawSlide(5)">
-      <img src="images/thumb-email2.jpg" alt="Marketing Email" class="thumb" id="em2" onclick="drawSlide(6)">
+      <div class="thumb-container">
+        <img src="images/thumb-intro.jpg" alt="View Projects" class="intro">
+        <p class="thumb-caption blank">&nbsp;</p>
+      </div>
+      <div class="thumb-container">
+        <img src="images/thumb-fesc.jpg" alt="Florida Energy Systems Consortium" class="thumbact" id="fesc" onclick="drawSlide(0)">
+        <p class="thumb-caption site">website</p>
+      </div>
+      <div class="thumb-container">
+        <img src="images/thumb-www.jpg" alt="Winter Wear Warehouse" class="thumb" id="www" onclick="drawSlide(1)">
+        <p class="thumb-caption site">website</p>
+      </div>
+      <div class="thumb-container">
+        <img src="images/thumb-adv.jpg" alt="Adventure" class="thumb" id="adv" onclick="drawSlide(2)">
+        <p class="thumb-caption site">website</p>
+      </div>
+      <div class="thumb-container">
+        <img src="images/thumb-stp.jpg" alt="Straight to the Point Archery" class="thumb" id="stp" onclick="drawSlide(3)">
+        <p class="thumb-caption site">website</p>
+      </div>
+      <div class="thumb-container">
+        <img src="images/thumb-tfr.jpg" alt="Technical Feasibility Review" class="thumb" id="tfr" onclick="drawSlide(4)">
+        <p class="thumb-caption site">website</p>
+      </div>
+      <div class="thumb-container">
+        <img src="images/thumb-email1.jpg" alt="Marketing Email" class="thumb" id="em1" onclick="drawSlide(5)">
+        <p class="thumb-caption email">email</p>
+      </div>
+      <div class="thumb-container">
+        <img src="images/thumb-email2.jpg" alt="Marketing Email" class="thumb" id="em2" onclick="drawSlide(6)">
+        <p class="thumb-caption email">email</p>
+      </div>
     </div>
     <figure>
-      <img src="images/fesc.jpg" alt="Project Slide" id="projPic">
+      <a id="imgLink" href="https://halleyl.github.io/florida-energy/index.html" target="_blank"><img src="images/fesc.jpg" alt="Project Slide" id="projPic"></a>
       <article>
         <h4 id="projName">Florida Energy Systems Consortium</h4>
-        <p id="projDesc">Assignment for UW Certificate program. Redesign and reorganization of <a href='http://floridaenergy.ufl.edu/' target='_blank'>existing website</a>, incorportating clear information architecture, responsivity and intuitive user flow. I designed the Home, Education, and Industry pages, as well as an Energy Data sub-page using Google Charts API.</p>
+        <p id="projDesc">I was tasked with redesigning and reorganizing an <a href='http://floridaenergy.ufl.edu/' target='_blank'>existing website</a>, incorportating clear information architecture, responsivity and intuitive user flow. I designed the Home, Education, and Industry pages, as well as an Energy Data sub-page using Google Charts API.</p>
+        <p>Skills &amp; Tools Used:</p>
         <ul id="skillList">
           <li>HTML5</li>
           <li>CSS3</li>

@@ -19,7 +19,9 @@ section {
 }
 
 h3 {
-  font-family: $display;
+  font-family: $body;
+  font-weight: 200;
+  font-size: 1.5rem;
   color: $shadow;
   padding: 1rem;
   border-bottom: 1px dashed $shadow;
@@ -32,11 +34,18 @@ h3 {
   border-bottom: 1px dashed $shadow;
 }
 
-.thumb {
-  width: 11%;
+.thumb-container {
+  display: inline-block;
+  width: 10.5%;
   max-width: 7.5rem;
-  margin: 0 1%;
-  border-radius: .5rem;
+  margin: 0 .75%;
+}
+
+.thumb {
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .5;
@@ -49,11 +58,41 @@ h3 {
 }
 
 .thumbact {
-  width: 11%;
-  max-width: 7.5rem;
-  margin: 0 1%;
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
   opacity: 1;
+}
+
+.intro {
+  width: 100%;
+  max-width: 100%;
   border-radius: .5rem;
+  opacity: .75;
+}
+
+.thumb-caption {
+  font-family: $body;
+  color: black;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  font-size: .75rem;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .65;
+}
+
+.site {
+  background-color: $light;
+}
+
+.email {
+  background-color: $medium;
+}
+
+.blank {
+  visibility: hidden;
 }
 
 figure {
@@ -61,19 +100,22 @@ figure {
   flex-direction: row;
   width: 96%;
   padding: 0 2rem 2rem;
+  #imgLink {
+    flex-basis: 50%;
+    max-width: 50%; 
+  }
   img {
-    width: 60%;
-    max-width: 60%;
-    height: 40%;
+    width: 100%;
+    max-width: 100%;
     display: inline-block;
     border: 1px solid $medium;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin: 0 .75rem .75rem;
     padding: .5rem;
-    font-family: $display;
+    font-family: $body;
     color: $medium;
     border-bottom: 1px dashed $medium;
     line-height: 1.5em;
@@ -104,6 +146,10 @@ figure {
     color: $shadow;
     list-style: square;
   }
+}
+
+article {
+  flex-basis: 50%;
 }
 
 #projLink {
@@ -148,28 +194,32 @@ figure {
 
 @media(max-width:700px) {
   figure {
+    width: 100%;
     flex-direction: column;
-    img {
-      width: 100%;
-      max-width: 100%;
-      align-self: center;
+    #imgLink {
+    flex-basis: 100%;
+    max-width: 100%;
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
     }
     h4 {
       padding-top: 1.25rem;
     }
   }
-  .thumb, .thumbact {
+  .thumb-container {
     width: 16%;
     max-width: 7.5rem;
-    margin: 0 1%;
+    margin: 0 .75% .5rem;
   }
 }
 
 @media(max-width:550px) {
-  .thumb, .thumbact {
+  .thumb-container {
     width: 21%;
     max-width: 7.5rem;
-    margin: 0 .5%;
+    margin: 0 .5% .5rem;
   }
 }
 

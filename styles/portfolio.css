@@ -7,7 +7,9 @@ section {
           box-shadow: 5px 5px #A96A9C; }
 
 h3 {
-  font-family: "Press Start 2P", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
   color: #2F4858;
   padding: 1rem;
   border-bottom: 1px dashed #2F4858; }
@@ -18,11 +20,17 @@ h3 {
   margin-bottom: 1rem;
   border-bottom: 1px dashed #2F4858; }
 
-.thumb {
-  width: 11%;
+.thumb-container {
+  display: inline-block;
+  width: 10.5%;
   max-width: 7.5rem;
-  margin: 0 1%;
-  border-radius: .5rem;
+  margin: 0 .75%; }
+
+.thumb {
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .5;
@@ -36,11 +44,36 @@ h3 {
             filter: unset; }
 
 .thumbact {
-  width: 11%;
-  max-width: 7.5rem;
-  margin: 0 1%;
-  opacity: 1;
-  border-radius: .5rem; }
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  opacity: 1; }
+
+.intro {
+  width: 100%;
+  max-width: 100%;
+  border-radius: .5rem;
+  opacity: .75; }
+
+.thumb-caption {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  font-size: .75rem;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: .65; }
+
+.site {
+  background-color: #FF847D; }
+
+.email {
+  background-color: #A96A9C; }
+
+.blank {
+  visibility: hidden; }
 
 figure {
   display: -webkit-box;
@@ -52,18 +85,21 @@ figure {
           flex-direction: row;
   width: 96%;
   padding: 0 2rem 2rem; }
+  figure #imgLink {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    max-width: 50%; }
   figure img {
-    width: 60%;
-    max-width: 60%;
-    height: 40%;
+    width: 100%;
+    max-width: 100%;
     display: inline-block;
     border: 1px solid #A96A9C; }
   figure h4 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin: 0 .75rem .75rem;
     padding: .5rem;
-    font-family: "Press Start 2P", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #A96A9C;
     border-bottom: 1px dashed #A96A9C;
     line-height: 1.5em; }
@@ -88,6 +124,10 @@ figure {
     font-family: "Montserrat", sans-serif;
     color: #2F4858;
     list-style: square; }
+
+article {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%; }
 
 #projLink {
   display: block;
@@ -131,27 +171,30 @@ figure {
 
 @media (max-width: 700px) {
   figure {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    figure img {
-      width: 100%;
-      max-width: 100%;
-      -ms-flex-item-align: center;
-          align-self: center; }
+    figure #imgLink {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      max-width: 100%; }
+      figure #imgLink img {
+        width: 100%;
+        max-width: 100%; }
     figure h4 {
       padding-top: 1.25rem; }
 
-  .thumb, .thumbact {
+  .thumb-container {
     width: 16%;
     max-width: 7.5rem;
-    margin: 0 1%; } }
+    margin: 0 .75% .5rem; } }
 @media (max-width: 550px) {
-  .thumb, .thumbact {
+  .thumb-container {
     width: 21%;
     max-width: 7.5rem;
-    margin: 0 .5%; } }
+    margin: 0 .5% .5rem; } }
 .hide {
   visibility: hidden; }
 

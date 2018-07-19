@@ -20,7 +20,7 @@ body {
 
 #sign {
   padding: 5rem;
-  margin: 20vh auto 0;
+  margin: 10vh auto 0;
   width: 60%;
   border: 1rem double $light;
   border-radius: 2rem;
@@ -29,21 +29,31 @@ body {
 }
 
 h1 {
-  color: white;
+  color: $dark;
   font-size: 2.5rem;
   text-align: center;
   font-family: $display;
-  text-shadow: 5px 5px $shadow;
+  text-shadow: 5px 5px $light;
 }
 
 h2 {
-  color: $light;
+  color: white;
   font-size: 2rem;
   text-align: center;
   margin: 5vh 0 0;
   font-family: $body;
   font-weight: 200;
-  text-shadow: 1px 1px $shadow;
+  text-shadow: 2px 2px $shadow;
+}
+
+h3 {
+  color: white;
+  font-family: $body;
+  font-weight: 200;
+  font-size: 1.25rem;
+  margin-top: 1rem; 
+  padding: 1rem 0 0;
+  //text-shadow: 1px 1px white;
 }
 
 nav {
