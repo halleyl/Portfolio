@@ -44,8 +44,7 @@ let slides = [
     title: "Technical Feasibility Review",
     screenshot: "images/tfr.jpg",
     text: "I was presented with 3 potential design choices, and asked to evaluate the time needed to complete them, their feasibility as design choices, and how I would go about accomplishing the task on a high level. I chose to include links to simple proof-of-concept pages which I created to demonstrate viability. An industry professional used my document as an example of best practices in technical feasiblity reporting.",
-    list: `<li>Markdown</li>
-          <li>HTML5</li>
+    list: `<li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>`,
     thumbId: "tfr",
