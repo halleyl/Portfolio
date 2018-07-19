@@ -51,6 +51,7 @@ article {
     padding: 1rem; }
 
 span {
+  font-size: 1rem;
   font-family: "Press Start 2P", sans-serif;
   color: #475879;
   display: inline-block;
@@ -118,7 +119,10 @@ a {
   article figure {
     width: 35%; }
   article div {
-    width: 60%; } }
+    width: 60%; }
+
+  span {
+    font-size: .8rem; } }
 @media (max-width: 700px) {
   article figure {
     width: 45%; }

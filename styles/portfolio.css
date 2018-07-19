@@ -59,6 +59,7 @@ h3 {
 .thumb-caption {
   font-family: "Montserrat", sans-serif;
   color: black;
+  font-weight: 400;
   border-bottom-left-radius: .5rem;
   border-bottom-right-radius: .5rem;
   font-size: .75rem;
@@ -67,10 +68,10 @@ h3 {
   opacity: .65; }
 
 .site {
-  background-color: #FF847D; }
+  background-color: rgba(255, 132, 125, 0.55); }
 
 .email {
-  background-color: #A96A9C; }
+  background-color: rgba(169, 106, 156, 0.55); }
 
 .blank {
   visibility: hidden; }

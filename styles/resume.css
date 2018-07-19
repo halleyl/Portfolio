@@ -96,14 +96,33 @@ p {
 div[class^="col"] {
   display: inline-block;
   margin: .25rem;
-  background-color: rgba(255, 255, 255, 0.25);
-  padding: .25rem; }
+  background-color: rgba(255, 255, 255, 0.25); }
 
 .col2 {
-  width: 25%; }
+  width: 25%;
+  padding: .25rem;
+  text-align: right; }
 
 .col3 {
   width: 25%; }
+
+.adv {
+  background-color: rgba(255, 255, 255, 0.25); }
+
+.adv p {
+  margin: 0;
+  padding: .25rem;
+  width: 75%;
+  background-color: rgba(255, 132, 125, 0.25); }
+
+.int {
+  background-color: rgba(255, 255, 255, 0.25); }
+
+.int p {
+  margin: 0;
+  padding: .25rem;
+  width: 50%;
+  background-color: rgba(169, 106, 156, 0.25); }
 
 @media (max-width: 950px) {
   .col2 {
@@ -127,7 +146,8 @@ div[class^="col"] {
     margin-bottom: .25rem; }
 
   .col2 {
-    width: 100%; }
+    width: 100%;
+    text-align: left; }
 
   .col3 {
     width: 100%; } }
