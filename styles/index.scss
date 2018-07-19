@@ -54,7 +54,8 @@ h3 {
   font-size: 1.15rem;
   margin-top: 1rem; 
   padding: 1rem 0 0;
-  //text-shadow: 1px 1px white;
+  opacity: .75;
+  text-shadow: 0 0 5px $shadow;
 }
 
 nav {

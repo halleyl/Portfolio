@@ -41,7 +41,9 @@ h3 {
   font-weight: 200;
   font-size: 1.15rem;
   margin-top: 1rem;
-  padding: 1rem 0 0; }
+  padding: 1rem 0 0;
+  opacity: .75;
+  text-shadow: 0 0 5px #2F4858; }
 
 nav {
   display: -webkit-box;
