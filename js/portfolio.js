@@ -24,7 +24,7 @@ let slides = [
  },{
     title: "Adventure Game",
     screenshot: "images/adventure.jpg",
-    text: "For this project, I designed a Battleship style game with the hidden &lsquo;prize&rsquo; at a randomized location. I used conditional if/else statements to ensure that the prize is not located in the starting square, to notify the user when they try to move outside of the grid, and to let them know when they've won.",
+    text: "For this project, I designed a Battleship style game with the hidden &lsquo;prize&rsquo; at a randomized location. I used conditional statements to ensure that the prize is not located in the starting square, to notify the user when they try to move outside of the grid, and to let them know when they've won.",
     list: `<li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>`,
@@ -58,7 +58,7 @@ let slides = [
           <li>CSS3</li>`,
     thumbId: "em1",
     project: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email1-full.jpg",
-    repo: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email1-full.jpg"
+    repo: ""
   },{
     title: "Barefoot Yoga Email",
     screenshot: "images/email2.jpg",
@@ -67,7 +67,7 @@ let slides = [
           <li>CSS3</li>`,
     thumbId: "em2",
     project: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg",
-    repo: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg"
+    repo: ""
   }
 ]
 
@@ -92,8 +92,8 @@ function drawSlide(x) {
   var imageLink = document.getElementById("imgLink")
   imageLink.href = slides[x].project
   // Load link to repo
-  var repo = document.getElementById("repoLink")
-  repo.href = slides[x].repo
+  var repo = document.getElementsByClassName("repoLink")
+  repo[0].href = slides[x].repo
 
   // Remove active state from any active thumbnails
   var inactiveThumb = document.getElementsByClassName("thumbact")[0]
@@ -104,13 +104,13 @@ function drawSlide(x) {
   
   // Remove Repo link for thumbs where it doesn't apply
   
-  var noRepo = document.getElementById("repoLink")
+  var noRepo = document.getElementsByClassName("repoLink")
   
   if(x == 5 || x == 6) {
-    noRepo.classList.add("hide")
+    noRepo[0].classList.add("hide")
     // console.log(noRepo.classList)
-  } else if(noRepo.classList.contains("hide")) {
-    noRepo.classList.remove("hide")
+  } else if(noRepo[0].classList.contains("hide")) {
+    noRepo[0].classList.remove("hide")
   }
 
   // Set active thumbnail image
