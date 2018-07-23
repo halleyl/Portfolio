@@ -217,4 +217,11 @@ footer {
   text-align: center;
   padding: 0 0 .5rem; }
 
+a[target="_blank"]:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: .8rem;
+  color: #A96A9C;
+  content: " \f35d"; }
+
 /*# sourceMappingURL=stylesheet.css.map */
