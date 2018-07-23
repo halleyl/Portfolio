@@ -217,7 +217,7 @@ footer {
   text-align: center;
   padding: 0 0 .5rem; }
 
-a[target="_blank"]:after {
+#projDesc a[target="_blank"]:after {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   font-size: .8rem;

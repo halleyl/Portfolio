@@ -189,7 +189,7 @@ footer {
 }
 
 // Insert FA external link icon after external link
-a[target="_blank"]:after {
+#projDesc a[target="_blank"]:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: .8rem;
