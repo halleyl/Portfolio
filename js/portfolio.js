@@ -58,7 +58,7 @@ let slides = [
           <li>CSS3</li>`,
     thumbId: "em1",
     project: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email1-full.jpg",
-    repo: ""
+    repo: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email1-full.jpg"
   },{
     title: "Barefoot Yoga Email",
     screenshot: "images/email2.jpg",
@@ -67,7 +67,7 @@ let slides = [
           <li>CSS3</li>`,
     thumbId: "em2",
     project: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg",
-    repo: ""
+    repo: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg"
   }
 ]
 
