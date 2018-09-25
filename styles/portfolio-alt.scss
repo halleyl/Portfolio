@@ -171,18 +171,23 @@ article {
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px $dark;
-  background-color: $medium;
-  border: .25rem solid $light;
-  box-shadow: 3px 3px $dark;  
+  background: url("../images/proj-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px $medium;
+  border: 1px solid $dark;
   padding: 1rem;
   margin-left: 1.5rem;
   margin-bottom: .75rem;
     &:hover {
-    color: white;
-    background-color: $light;
-    border-color: $medium;
+    color: $shadow;
+    text-shadow: 0 0 3px white;
+    background: url("../images/proj-bg-on.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  transition: all 0.25s linear;
 }
 
 .repoLink {
@@ -194,18 +199,23 @@ article {
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px $dark;
-  background-color: $medium;
-  border: .25rem solid $light;
-  box-shadow: 3px 3px $dark;  
+  background: url("../images/repo-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px $medium; 
+  border: 1px solid $dark;
   padding: 1rem;
   margin-left: 1.5rem;
   margin-bottom: .75rem;
     &:hover {
-    color: white;
-    background-color: $light;
-    border-color: $medium;
+    color: $shadow;
+    text-shadow: 0 0 3px white;
+    background: url("../images/repo-bg-on.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  transition: all 0.25s linear;
 }
 
 @media(max-width:700px) {

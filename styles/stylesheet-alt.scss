@@ -99,28 +99,32 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0 1rem;
-  background: rgba(0, 0, 0, .5);
   a {
+    width: 100%;
     color: white;
     text-decoration: none;
     display: inline-block;     
     position: relative;    
-    z-index: 1;     
-    padding: 1.5rem;     
-    margin: -1rem;
+    z-index: 1; 
+    padding: 2.5rem 0;
   }
   li {
     font-size: 1.25rem;
+    flex-grow: 1;
+    text-align: center;
     list-style: none;
-    padding: 1.25rem .25rem;
-    margin: 0 1rem;
     font-family: $body;
     text-shadow: 2px 2px $shadow;
     color: $light;
+    padding: 0;
+    background: rgba(0, 0, 0, .4);
+    &:hover {
+      background: rgba(255, 255, 255, .4);
+    }
     &:hover a {
-      color: $medium;
-      text-shadow: 0 0 3px black;
+      color: $shadow;
+      font-weight: bold;
+      text-shadow: 0 0 5px white;
     }
     transition: color 0.25s ease-out;
   }

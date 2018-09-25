@@ -10,6 +10,10 @@ $body: 'Montserrat', sans-serif;
 
 // Resume page content styles
 
+#toggle {
+  display: none;
+}
+
 h1, h2 {
   color: $dark;
   text-shadow: none;
