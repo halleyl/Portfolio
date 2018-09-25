@@ -1,11 +1,11 @@
 // SCSS variables and general content styles
 
-$light: #FF847D;
-$medium: #A96A9C;
-$dark: #475879;
-$shadow: #2F4858;
+$light: #A9BCD0;
+$medium: #58A4B0;
+$dark: #373F51;
+$shadow: #1B1B1E;
 
-$display: 'Press Start 2P', sans-serif;
+$display: 'Neuton', sans-serif;
 $body: 'Montserrat', sans-serif;
 
 * {
@@ -40,18 +40,18 @@ body {
 // Header styles
 
 header {
-  width: 96%;
+  width: 100%;
   margin: 0 auto .5rem;
 }
 
 h1 {
-  min-width: 15em;
+  min-width: 5em;
   display: inline-block;
   color: white;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-family: $display;
-  padding: 1.5rem 1rem .5rem;
-  text-shadow: 5px 5px $shadow;
+  padding: .5rem .5rem .5rem 2rem;
+  text-shadow: 3px 3px $shadow;
   a {
     color: white;
     text-decoration: none;
@@ -70,7 +70,7 @@ h2 {
 
 #icons {
   float: right;
-  margin: 1.5rem 65px 1rem 1rem;
+  margin: 1.5rem 90px 1rem 1rem;
   display: inline-flex;
   flex-direction: row;
   i {
@@ -87,17 +87,20 @@ h2 {
 nav {
   clear: both;
   background-color: $dark;
-  border: .25rem solid $light;
-  box-shadow: 5px 5px $shadow;  
-  padding: 0 1rem;
-  border-radius: 1rem;
+  padding: 0;
   width: 100%;
+  background: url("../images/nav-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0 1rem;
+  background: rgba(0, 0, 0, .5);
   a {
     color: $light;
     text-decoration: none;
@@ -105,7 +108,7 @@ nav ul {
     position: relative;    
     z-index: 1;     
     padding: 1.5rem;     
-    margin: -1.5rem;
+    margin: -1rem;
   }
   li {
     font-size: 1.25rem;
@@ -115,9 +118,8 @@ nav ul {
     font-family: $body;
     text-shadow: 2px 2px $shadow;
     color: $light;
-    &:hover {
+    &:hover a {
       color: white;
-      animation: bounce .5s linear;
     }
     transition: color 0.25s ease-out;
   }
@@ -186,8 +188,7 @@ nav ul {
 
 @media(max-width:470px) {
   h1 {
-    font-size: 1.35rem;
-    text-shadow: 3px 3px $shadow;
+    padding-left: 1rem;
   }
   nav ul {
     li {
