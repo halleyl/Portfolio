@@ -143,7 +143,7 @@ figure {
     color: $shadow;
     text-decoration-skip: ink;
     &:hover {
-      color: white;
+      color: $medium;
       text-decoration: none;
     }
   }
@@ -178,6 +178,7 @@ article {
   margin-left: 1.5rem;
   margin-bottom: .75rem;
     &:hover {
+    color: white;
     background-color: $light;
     border-color: $medium;
   }
@@ -200,6 +201,7 @@ article {
   margin-left: 1.5rem;
   margin-bottom: .75rem;
     &:hover {
+    color: white;
     background-color: $light;
     border-color: $medium;
   }

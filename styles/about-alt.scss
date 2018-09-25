@@ -1,0 +1,150 @@
+// SCSS variables
+
+$light: #A9BCD0;
+$medium: #58A4B0;
+$dark: #373F51;
+$shadow: #1B1B1E;
+
+$display: 'Neuton', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+// About page content styles
+
+section {
+  width: 96%;
+  margin: 0 auto 1rem;
+  background-color: rgba(255,255,255, 0.75);
+  box-shadow: 5px 5px $medium;
+}
+
+h3 {
+  font-family: $body;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: $shadow;
+  padding: 1rem 1rem .5rem 2rem;
+  border-bottom: 1px dashed $shadow;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  font-family: $body;
+  font-size: 1rem;
+  color: $shadow;
+  padding: 1rem 2rem;
+  p {
+    margin-bottom: 1rem;
+  }
+  figure {
+    width: 30%;
+    padding: 1rem;
+    img {
+      width: 100%;
+      max-width: 600px;
+      max-height: 600px;
+      box-shadow: 5px 5px $shadow;
+      filter: grayscale(100%);
+      &:hover {
+        filter: unset;
+      }
+      transition: all .5s linear;
+    }
+  }
+  div {
+    width: 70%;
+    max-width: 40rem;
+    padding: 1rem;
+  }
+}
+
+span {
+  font-size: 1.5rem;
+  font-family: $display;
+  color: $dark;
+  display: inline-block;
+  text-shadow: 1px 1px $light;
+}
+
+@keyframes ping {
+  0% {
+    transform: translateY(0)
+  }
+  10% {
+    transform: translateY(2px)
+  }
+  15% {
+    transform: translateY(1px)
+  }
+  25% {
+    transform: translateY(0)
+  }
+  50% {
+    transform: translateY(-2px)
+  }
+  100% {
+    transform: translateY(0)
+  }
+}
+
+
+#C1 {
+  animation: ping 1.2s linear infinite;
+}
+
+#S1 {
+  animation: ping 1.2s linear .4s infinite;
+}
+
+#S2 {
+  animation: ping 1.2s linear .8s infinite;
+}
+
+
+a {
+  color: $shadow;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media(max-width:1000px) {
+  article {
+    figure {
+      width: 35%;
+    }
+    div {
+      width: 60%;
+    }
+  }
+  span {
+    font-size: .8rem;
+  }
+}
+
+@media(max-width:700px) {
+  article {
+    figure {
+      width: 45%;
+    }
+    div {
+      width: 50%;
+    }
+  }
+}
+
+@media(max-width:600px) {
+  article {
+    display: flex;
+    flex-direction: column;
+    figure {
+      width: 60%;
+      align-self: center;
+    }
+    div {
+      width: 100%;
+    }
+  }
+}

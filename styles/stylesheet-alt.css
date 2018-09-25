@@ -15,12 +15,12 @@ body {
   right: 15px;
   text-align: right;
   font-family: "Montserrat", sans-serif;
-  font-size: .75rem;
   color: white; }
   #toggle img {
     height: 40px;
     width: 60px; }
   #toggle p {
+    font-size: .75rem;
     text-align: center; }
 
 header {
@@ -91,7 +91,7 @@ nav ul {
   padding: 0 1rem;
   background: rgba(0, 0, 0, 0.5); }
   nav ul a {
-    color: #A9BCD0;
+    color: white;
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -109,7 +109,8 @@ nav ul {
     -webkit-transition: color 0.25s ease-out;
     transition: color 0.25s ease-out; }
     nav ul li:hover a {
-      color: white; }
+      color: #58A4B0;
+      text-shadow: 0 0 3px black; }
 
 @-webkit-keyframes bounce {
   0% {

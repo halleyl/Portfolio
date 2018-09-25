@@ -15,12 +15,12 @@ body {
   right: 15px;
   text-align: right;
   font-family: "Montserrat", sans-serif;
-  font-size: .75rem;
   color: white; }
   #toggle img {
-    height: 50px;
-    width: 75px; }
+    height: 40px;
+    width: 60px; }
   #toggle p {
+    font-size: .75rem;
     text-align: center; }
 
 #sign {
