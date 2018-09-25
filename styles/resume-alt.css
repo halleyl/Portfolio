@@ -17,12 +17,15 @@ article {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #1B1B1E;
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem 1rem 0; }
   article ul {
     list-style: square;
-    margin-top: .5rem; }
+    margin-top: .5rem;
+    padding-left: 2rem; }
     article ul li {
       margin-left: 2rem; }
+  article h5, article h6, article p {
+    padding-left: 2rem; }
 
 a {
   color: #1B1B1E;
@@ -67,11 +70,10 @@ a {
 
 h4 {
   font-family: "Montserrat", sans-serif;
-  background-color: #58A4B0;
+  background-color: #373F51;
   margin-bottom: 1rem;
   padding: .25rem;
   color: white;
-  border-radius: 1rem;
   text-indent: 1rem; }
 
 h5 {
