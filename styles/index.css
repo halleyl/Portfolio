@@ -20,6 +20,8 @@ body {
   #toggle img {
     height: 50px;
     width: 75px; }
+  #toggle p {
+    text-align: center; }
 
 #sign {
   padding: 5rem;

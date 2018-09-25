@@ -16,7 +16,7 @@ if (localStorage.getItem("sheet") === "retro") {
   // Make sure the correct toggle image is displayed
   toggleButton.setAttribute("src", "images/toggle-2.png")
   // Update button text
-  toggleText.innerHTML = "Professionalize!"
+  toggleText.innerHTML = "Go Pro &#8702;"
 } else if (localStorage.getItem("sheet") === "profesh") {
   // Set styleChosen variable to current sheet value
   styleChosen = localStorage.getItem("sheet")
@@ -27,7 +27,7 @@ if (localStorage.getItem("sheet") === "retro") {
   // Make sure the correct toggle image is displayed
   toggleButton.setAttribute("src", "images/toggle-1.png")
   // Update button text
-  toggleText.innerHTML = "Make it fun!"
+  toggleText.innerHTML = "&#8678; Go Retro"
 } else {
   // If no style is pre-selected, use retro
   localStorage.setItem("sheet", "retro")
@@ -40,7 +40,7 @@ if (localStorage.getItem("sheet") === "retro") {
   // Make sure the correct toggle image is displayed
   toggleButton.setAttribute("src", "images/toggle-2.png")
   // Update button text
-  toggleText.innerHTML = "Professionalize!"
+  toggleText.innerHTML = "Go Pro &#8702;"
 }
 
 toggleContainer.addEventListener("mouseover", tooltip, false)
@@ -64,7 +64,7 @@ function styleToggle() {
     // Make sure the correct toggle image is displayed
     toggleButton.setAttribute("src", "images/toggle-1.png")
     // Update button text
-    toggleText.innerHTML = "Make it fun!"
+    toggleText.innerHTML = "&#8678; Go Retro"
   } else if (localStorage.getItem("sheet") === "profesh") {
     // Set styleChosen variable to retro sheet value
     localStorage.setItem("sheet", "retro")
@@ -76,6 +76,6 @@ function styleToggle() {
     // Make sure the correct toggle image is displayed
     toggleButton.setAttribute("src", "images/toggle-2.png")
     // Update button text
-    toggleText.innerHTML = "Professionalize!"
+    toggleText.innerHTML = "Go Pro &#8702;"
   }
 }
