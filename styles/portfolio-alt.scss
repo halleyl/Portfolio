@@ -250,16 +250,18 @@ article {
 }
 
 a.hide {
-  background-color: #cccccc;
-  border: .25rem solid #aaaaaa;
+  border: 1px solid $light;
   box-shadow: 0 0 #ffffff;
-  color: #aaaaaa;
-  text-shadow: 0 0 #ffffff;
+  color: rgba(255, 255, 255, .5);
+  text-shadow: none;
+  background: url("../images/repo-bg-on.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
     &:hover {
     background-color: #cccccc;
     border-color: #aaaaaa;
-    color: #aaaaaa;
+    color: rgba(255, 255, 255, .5);
+    text-shadow: none;
   }
-  transition: all 0.25s linear;
-
 }

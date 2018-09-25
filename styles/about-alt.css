@@ -18,9 +18,12 @@ article {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #1B1B1E;
@@ -38,8 +41,10 @@ article {
               box-shadow: 5px 5px #1B1B1E;
       -webkit-filter: grayscale(100%);
               filter: grayscale(100%);
-      -webkit-transition: all .5s linear;
-      transition: all .5s linear; }
+      -webkit-transition: -webkit-filter .5s linear;
+      transition: -webkit-filter .5s linear;
+      transition: filter .5s linear;
+      transition: filter .5s linear, -webkit-filter .5s linear; }
       article figure img:hover {
         -webkit-filter: unset;
                 filter: unset; }

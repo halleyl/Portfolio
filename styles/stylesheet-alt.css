@@ -91,6 +91,7 @@ nav ul {
   nav ul a {
     width: 100%;
     color: white;
+    font-weight: bold;
     text-decoration: none;
     display: inline-block;
     position: relative;
