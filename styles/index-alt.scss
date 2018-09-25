@@ -1,0 +1,154 @@
+$light: #A9BCD0;
+$medium: #58A4B0;
+$dark: #373F51;
+$shadow: #1B1B1E;
+
+$display: 'Neuton', sans-serif;
+$body: 'Montserrat', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0deg, $light, $medium, $dark) fixed;
+  min-height: 100%;
+  font-size: 100%;
+}
+
+#toggle {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  text-align: right;
+  font-family: $body;
+  font-size: .75rem;
+  color: white;
+  img {
+    height: 50px;
+    width: 75px;
+  }
+}
+
+#sign {
+  width: 80%;
+  margin: 5vh auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: $display;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 0 .5rem $shadow;
+}
+
+h2 {
+  font-family: $body;
+  font-size: 2rem;
+  color: white;
+  font-weight: 200;
+  text-shadow: 0 0 .5rem $shadow;
+}
+
+@media(max-width: 530px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media(max-width: 450px) {
+  #sign {
+    // margin-top: 60px;
+    text-align: left;
+  }
+}
+
+h3 {
+  font-family: $body;
+  margin: 2rem auto;
+  max-width: 40rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 200;
+  text-shadow: 0 0 1rem $shadow;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  a {
+    font-family: $display;
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2rem black;
+    background: rgba(0, 0, 0, .5);
+    &:nth-of-type(1) {
+      background: url("../images/portfolio-bg.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-of-type(2) {
+      background: url("../images/resume-bg.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &:nth-of-type(3) {
+      background: url("../images/about-bg.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  #portfolio {
+    background: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: block;
+    &:hover {
+      background: rgba(255, 255, 255, .5);
+      text-shadow: 0 0 2rem white;
+      color: black;
+    }
+  }
+  #resume {
+    background: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: block;
+    &:hover {
+      background: rgba(255, 255, 255, .5);
+      text-shadow: 0 0 2rem white;
+      color: black;
+    }
+  }
+  #about {
+    background: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: block;
+    &:hover {
+      background: rgba(255, 255, 255, .5);
+      text-shadow: 0 0 2rem white;
+      color: black;
+    }  }  
+}
+
+img[class^="rope"] {
+  display: none;
+}

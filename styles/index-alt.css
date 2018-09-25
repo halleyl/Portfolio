@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background: -webkit-gradient(linear, left bottom, left top, from(#A9BCD0), color-stop(#58A4B0), to(#373F51)) fixed;
+  background: linear-gradient(0deg, #A9BCD0, #58A4B0, #373F51) fixed;
+  min-height: 100%;
+  font-size: 100%; }
+
+#toggle {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: .75rem;
+  color: white; }
+  #toggle img {
+    height: 50px;
+    width: 75px; }
+
+#sign {
+  width: 80%;
+  margin: 5vh auto;
+  text-align: center; }
+
+h1 {
+  font-family: "Neuton", sans-serif;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 0 0.5rem #1B1B1E; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: white;
+  font-weight: 200;
+  text-shadow: 0 0 0.5rem #1B1B1E; }
+
+@media (max-width: 530px) {
+  h1 {
+    font-size: 3rem; }
+
+  h2 {
+    font-size: 1.75rem; } }
+@media (max-width: 450px) {
+  #sign {
+    text-align: left; } }
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin: 2rem auto;
+  max-width: 40rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 200;
+  text-shadow: 0 0 1rem #1B1B1E;
+  position: relative;
+  overflow: hidden; }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 100%; }
+  nav a {
+    font-family: "Neuton", sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2rem black;
+    background: rgba(0, 0, 0, 0.5); }
+    nav a:nth-of-type(1) {
+      background: url("../images/portfolio-bg.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    nav a:nth-of-type(2) {
+      background: url("../images/resume-bg.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    nav a:nth-of-type(3) {
+      background: url("../images/about-bg.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+  nav #portfolio {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: block; }
+    nav #portfolio:hover {
+      background: rgba(255, 255, 255, 0.5);
+      text-shadow: 0 0 2rem white;
+      color: black; }
+  nav #resume {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: block; }
+    nav #resume:hover {
+      background: rgba(255, 255, 255, 0.5);
+      text-shadow: 0 0 2rem white;
+      color: black; }
+  nav #about {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: block; }
+    nav #about:hover {
+      background: rgba(255, 255, 255, 0.5);
+      text-shadow: 0 0 2rem white;
+      color: black; }
+
+img[class^="rope"] {
+  display: none; }
+
+/*# sourceMappingURL=index-alt.css.map */

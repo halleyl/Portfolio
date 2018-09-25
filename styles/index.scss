@@ -18,6 +18,20 @@ body {
   font-size: 100%;
 }
 
+#toggle {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  text-align: right;
+  font-family: $body;
+  font-size: .75rem;
+  color: white;
+  img {
+    height: 50px;
+    width: 75px;
+  }
+}
+
 #sign {
   padding: 5rem;
   margin: 10vh auto 0;
