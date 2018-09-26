@@ -37,6 +37,19 @@ body {
   }
 }
 
+#tooltip {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  width: 8rem;
+  text-align: left;
+  font-size: .75rem;
+  padding: .75rem;
+  background-color: $medium;
+  border: 1px solid $light;
+  box-shadow: 3px 3px $dark;
+}
+
 // Header styles
 
 header {

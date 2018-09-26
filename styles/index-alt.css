@@ -24,6 +24,19 @@ body {
     font-size: .75rem;
     text-align: center; }
 
+#tooltip {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  width: 8rem;
+  text-align: left;
+  font-size: .75rem;
+  padding: .75rem;
+  background-color: #58A4B0;
+  border: 1px solid #A9BCD0;
+  -webkit-box-shadow: 3px 3px #373F51;
+          box-shadow: 3px 3px #373F51; }
+
 #sign {
   width: 80%;
   margin: 5vh auto;

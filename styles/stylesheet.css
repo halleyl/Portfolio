@@ -23,6 +23,19 @@ body {
     font-size: .75rem;
     text-align: center; }
 
+#tooltip {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  width: 8rem;
+  text-align: left;
+  font-size: .75rem;
+  padding: .75rem;
+  background-color: #A96A9C;
+  border: 1px solid #FF847D;
+  -webkit-box-shadow: 3px 3px #475879;
+          box-shadow: 3px 3px #475879; }
+
 header {
   width: 96%;
   margin: 0 auto .5rem; }
