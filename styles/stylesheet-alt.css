@@ -238,10 +238,7 @@ nav ul {
   100% {
     -webkit-transform: rotate(0);
             transform: rotate(0); } }
-@media (max-width: 470px) {
-  h1 {
-    padding-left: 1rem; }
-
+@media (max-width: 890px) {
   nav ul li {
     text-align: center;
     font-size: 1rem;
@@ -249,7 +246,20 @@ nav ul {
     margin: 0 .25rem; }
 
   #icons {
-    margin: .5rem 1rem; } }
+    margin: 70px .5rem .5rem; } }
+@media (max-width: 726px) {
+  h2 {
+    margin-right: 55px; }
+
+  #icons {
+    margin: .5rem .5rem .5rem; } }
+@media (max-width: 629px) {
+  h2 {
+    margin-left: .75rem; } }
+@media (max-width: 470px) {
+  h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px #1B1B1E; } }
 footer {
   font-family: "Montserrat", sans-serif;
   color: white;
