@@ -106,9 +106,7 @@ p {
     max-width: 100%; }
 
   #skills li {
-    border-bottom: 1px dashed #A96A9C;
-    padding-bottom: .25rem;
-    margin-bottom: .25rem; } }
+    border: none; } }
 @media (max-width: 450px) {
   #res-head {
     -webkit-box-orient: vertical;
