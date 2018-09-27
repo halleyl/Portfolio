@@ -93,51 +93,15 @@ p {
 #skills {
   width: 100%;
   list-style: none;
-  margin-left: -1rem; }
+  margin-left: 1rem; }
+  #skills li {
+    display: inline-block;
+    background-color: rgba(88, 164, 176, 0.25);
+    padding: 1rem;
+    margin: .5rem; }
+  #skills .skill {
+    color: #373F51; }
 
-div[class^="col"] {
-  display: inline-block;
-  margin: .25rem;
-  background-color: rgba(255, 255, 255, 0.25); }
-
-.col2 {
-  width: 25%;
-  padding: .25rem;
-  text-align: right; }
-
-.col3 {
-  width: 25%; }
-
-.adv {
-  background-color: rgba(255, 255, 255, 0.25); }
-
-.adv p {
-  margin: 0;
-  padding: .25rem;
-  width: 75%;
-  background-color: rgba(88, 164, 176, 0.4); }
-
-.int {
-  background-color: rgba(255, 255, 255, 0.25); }
-
-.int p {
-  margin: 0;
-  padding: .25rem;
-  width: 50%;
-  background-color: rgba(196, 148, 139, 0.5); }
-
-@media (max-width: 950px) {
-  .col2 {
-    width: 40%; }
-
-  .col3 {
-    width: 40%; } }
-@media (max-width: 700px) {
-  .col2 {
-    width: 45%; }
-
-  .col3 {
-    width: 45%; } }
 @media (max-width: 600px) {
   #skills {
     max-width: 100%; }
@@ -145,14 +109,7 @@ div[class^="col"] {
   #skills li {
     border-bottom: 1px dashed #58A4B0;
     padding-bottom: .25rem;
-    margin-bottom: .25rem; }
-
-  .col2 {
-    width: 100%;
-    text-align: left; }
-
-  .col3 {
-    width: 100%; } }
+    margin-bottom: .25rem; } }
 @media (max-width: 450px) {
   #res-head {
     -webkit-box-orient: vertical;
