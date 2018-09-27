@@ -96,6 +96,8 @@ p {
     border: none;
     padding: .25rem;
     text-indent: .75rem; }
+    #skills li .skill {
+      color: black; }
 
 footer {
   display: none; }
