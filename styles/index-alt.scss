@@ -13,7 +13,7 @@ $body: 'Montserrat', sans-serif;
 }
 
 body {
-  background: linear-gradient(0deg, $light, $medium, $dark) fixed;
+  background: linear-gradient(0deg, $dark, $medium, $dark) fixed;
   min-height: 100%;
   font-size: 100%;
 }
@@ -132,34 +132,34 @@ nav {
     }
   }
   #portfolio {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .3);
     margin: 0 auto;
     padding: 6rem 0;
     display: block;
     &:hover {
-      background: rgba(255, 255, 255, .5);
+      background: rgba(255, 255, 255, .3);
       text-shadow: 0 0 2rem white;
       color: black;
     }
   }
   #resume {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .3);
     margin: 0 auto;
     padding: 6rem 0;
     display: block;
     &:hover {
-      background: rgba(255, 255, 255, .5);
+      background: rgba(255, 255, 255, .3);
       text-shadow: 0 0 2rem white;
       color: black;
     }
   }
   #about {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .3);
     margin: 0 auto;
     padding: 6rem 0;
     display: block;
     &:hover {
-      background: rgba(255, 255, 255, .5);
+      background: rgba(255, 255, 255, .3);
       text-shadow: 0 0 2rem white;
       color: black;
     }  }  
@@ -167,4 +167,12 @@ nav {
 
 img[class^="rope"] {
   display: none;
+}
+
+footer {
+  font-family: $body;
+  color: white;
+  font-size: .9rem;
+  text-align: center;
+  padding: 2rem 0;
 }

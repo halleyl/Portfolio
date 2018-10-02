@@ -5,8 +5,8 @@
           box-sizing: border-box; }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, from(#A9BCD0), color-stop(#58A4B0), to(#373F51)) fixed;
-  background: linear-gradient(0deg, #A9BCD0, #58A4B0, #373F51) fixed;
+  background: -webkit-gradient(linear, left bottom, left top, from(#373F51), color-stop(#58A4B0), to(#373F51)) fixed;
+  background: linear-gradient(0deg, #373F51, #58A4B0, #373F51) fixed;
   min-height: 100%;
   font-size: 100%; }
 
@@ -113,34 +113,41 @@ nav {
       background-size: cover;
       background-repeat: no-repeat; }
   nav #portfolio {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     padding: 6rem 0;
     display: block; }
     nav #portfolio:hover {
-      background: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.3);
       text-shadow: 0 0 2rem white;
       color: black; }
   nav #resume {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     padding: 6rem 0;
     display: block; }
     nav #resume:hover {
-      background: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.3);
       text-shadow: 0 0 2rem white;
       color: black; }
   nav #about {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     padding: 6rem 0;
     display: block; }
     nav #about:hover {
-      background: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.3);
       text-shadow: 0 0 2rem white;
       color: black; }
 
 img[class^="rope"] {
   display: none; }
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: .9rem;
+  text-align: center;
+  padding: 2rem 0; }
 
 /*# sourceMappingURL=index-alt.css.map */

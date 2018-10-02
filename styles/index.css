@@ -316,6 +316,13 @@ nav {
   position: absolute;
   bottom: 100%; }
 
+footer {
+  font-family: "Montserrat", sans-serif;
+  color: #FF847D;
+  font-size: .9rem;
+  text-align: center;
+  padding: 9rem 0 1rem; }
+
 @media (max-width: 1149px) {
   #sign {
     width: 80%; }
@@ -393,7 +400,14 @@ nav {
     display: none; }
 
   .rope3-right {
-    display: none; } }
+    display: none; }
+
+  footer {
+    font-family: "Montserrat", sans-serif;
+    color: #FF847D;
+    font-size: .9rem;
+    text-align: center;
+    padding: 1rem 0 1rem; } }
 @media (max-width: 570px) {
   #sign {
     margin: 4vh auto 0;

@@ -263,6 +263,14 @@ nav {
   bottom: 100%;
 }
 
+footer {
+  font-family: $body;
+  color: $light;
+  font-size: .9rem;
+  text-align: center;
+  padding:  9rem 0 1rem;
+}
+
 @media(max-width:1149px) {
   #sign {
     width: 80%;
@@ -350,6 +358,13 @@ nav {
   }
   .rope3-right {
     display: none;
+  }
+  footer {
+    font-family: $body;
+    color: $light;
+    font-size: .9rem;
+    text-align: center;
+    padding:  1rem 0 1rem;
   }
 }
 
