@@ -163,6 +163,7 @@ article {
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear; }
   #projLink:hover {
+    color: white;
     background-color: #FF847D;
     border-color: #A96A9C; }
 
@@ -183,6 +184,7 @@ article {
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear; }
   .repoLink:hover {
+    color: white;
     background-color: #FF847D;
     border-color: #A96A9C; }
 
