@@ -316,13 +316,6 @@ nav {
   position: absolute;
   bottom: 100%; }
 
-footer {
-  font-family: "Montserrat", sans-serif;
-  color: #FF847D;
-  font-size: .9rem;
-  text-align: center;
-  padding: 9rem 0 1rem; }
-
 @media (max-width: 1149px) {
   #sign {
     width: 80%; }
