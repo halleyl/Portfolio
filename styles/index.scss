@@ -95,7 +95,7 @@ nav {
   width: 55%;
   justify-content: space-around;
   position: relative;
-  top: 50px;
+  top: 75px;
   z-index: -1;
   a {
     color: white;
@@ -107,7 +107,6 @@ nav {
     box-shadow: 5px 5px $shadow;  
     padding: 1rem 2rem;
     border-radius: 1rem;
-    z-index: -1;
     font-family: $display;
     text-shadow: 2px 2px $shadow;
     color: white;
@@ -123,7 +122,6 @@ nav {
     box-shadow: 5px 5px $shadow;  
     padding: 1rem 2rem;
     border-radius: 1rem;
-    z-index: -1;
     font-family: $display;
     text-shadow: 2px 2px $shadow;
     color: white;
@@ -139,7 +137,6 @@ nav {
     box-shadow: 5px 5px $shadow;  
     padding: 1rem 2rem;
     border-radius: 1rem;
-    z-index: -1;
     font-family: $display;
     text-shadow: 2px 2px $shadow;
     color: white;
@@ -227,6 +224,7 @@ nav {
 .rope1-left {
   display: block;
   position: absolute;
+  z-index: -2;
   bottom: 100%;
   padding-left: 8.75em;
 }
@@ -263,13 +261,14 @@ nav {
   bottom: 100%;
 }
 
-//footer {
-//  font-family: $body;
-//  color: $light;
-//  font-size: .9rem;
-//  text-align: center;
-//  padding:  9rem 0 1rem;
-//}
+footer {
+  font-family: $body;
+  color: $light;
+  font-size: .9rem;
+  text-align: center;
+  position: relative;
+  top: 7rem;
+}
 
 @media(max-width:1149px) {
   #sign {

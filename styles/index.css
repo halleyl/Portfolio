@@ -86,7 +86,7 @@ nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   position: relative;
-  top: 50px;
+  top: 75px;
   z-index: -1;
   -webkit-animation: drop 1s ease-in-out;
           animation: drop 1s ease-in-out; }
@@ -100,7 +100,6 @@ nav {
             box-shadow: 5px 5px #2F4858;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    z-index: -1;
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 2px 2px #2F4858;
     color: white;
@@ -116,7 +115,6 @@ nav {
             box-shadow: 5px 5px #2F4858;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    z-index: -1;
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 2px 2px #2F4858;
     color: white;
@@ -132,7 +130,6 @@ nav {
             box-shadow: 5px 5px #2F4858;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    z-index: -1;
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 2px 2px #2F4858;
     color: white;
@@ -286,6 +283,7 @@ nav {
 .rope1-left {
   display: block;
   position: absolute;
+  z-index: -2;
   bottom: 100%;
   padding-left: 8.75em; }
 
@@ -315,6 +313,14 @@ nav {
   display: block;
   position: absolute;
   bottom: 100%; }
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  color: #FF847D;
+  font-size: .9rem;
+  text-align: center;
+  position: relative;
+  top: 7rem; }
 
 @media (max-width: 1149px) {
   #sign {
