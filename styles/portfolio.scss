@@ -151,7 +151,7 @@ figure {
     color: $shadow;
     text-decoration-skip: ink;
     &:hover {
-      color: white;
+      color: $medium;
       text-decoration: none;
     }
   }

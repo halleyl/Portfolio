@@ -57,7 +57,25 @@ article {
     width: 70%;
     max-width: 40rem;
     padding: 1rem;
+    a {
+    color: $shadow;
+    text-decoration: underline;
+    text-decoration-skip: ink;
+    &:hover {
+      color: $medium;
+      text-decoration: none;
+      }
+    }
   }
+}
+
+// Add icon indicator after external link
+article div a[target="_blank"]:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: .8rem;
+    color: $medium;
+    content: " \f35d";
 }
 
 span {

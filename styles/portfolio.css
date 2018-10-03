@@ -132,7 +132,7 @@ figure {
     -webkit-text-decoration-skip: ink;
             text-decoration-skip: ink; }
     figure a:hover {
-      color: white;
+      color: #A96A9C;
       text-decoration: none; }
   figure ul {
     margin-left: 3rem;

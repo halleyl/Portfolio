@@ -49,6 +49,21 @@ article {
     width: 70%;
     max-width: 40rem;
     padding: 1rem; }
+    article div a {
+      color: #2F4858;
+      text-decoration: underline;
+      -webkit-text-decoration-skip: ink;
+              text-decoration-skip: ink; }
+      article div a:hover {
+        color: #A96A9C;
+        text-decoration: none; }
+
+article div a[target="_blank"]:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: .8rem;
+  color: #A96A9C;
+  content: " \f35d"; }
 
 span {
   font-size: 1rem;
