@@ -171,7 +171,7 @@ article {
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px $dark;
-  background: url("../images/proj-bg.jpg");
+  background-color: $dark;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -183,7 +183,7 @@ article {
     &:hover {
     color: $shadow;
     text-shadow: 0 0 3px white;
-    background: url("../images/proj-bg-on.jpg");
+    background-color: $light;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,7 +199,7 @@ article {
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px $dark;
-  background: url("../images/repo-bg.jpg");
+  background-color: $dark;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@ article {
     &:hover {
     color: $shadow;
     text-shadow: 0 0 3px white;
-    background: url("../images/repo-bg-on.jpg");
+    background-color: $light;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
