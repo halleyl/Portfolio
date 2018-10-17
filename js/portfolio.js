@@ -68,6 +68,18 @@ let slides = [
     thumbId: "em2",
     project: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg",
     repo: "https://raw.githubusercontent.com/halleyl/portfolio/gh-pages/images/email2-full.jpg"
+  },{
+    title: "Borkcode",
+    screenshot: "images/bork.jpg",
+    text: "I designed and developed the beta website for a service that locates the owners of lost dogs. Using Vue.js, each dog can be looked up with a unique ID which will populate their information. JavaScript conditionals ensure that entry errors such as incorrect numbers are handled and communicated. (Note: To test this site, please enter a Dog ID number between 1-5.)",
+    list: `<li>Logo design</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Vue.js</li>`,
+    thumbId: "bork",
+    project: "https://borkcode.com/",
+    repo: "https://github.com/halleyl/borkcode"
   }
 ]
 
