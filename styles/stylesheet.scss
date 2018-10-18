@@ -229,20 +229,14 @@ nav ul {
 
 @media(max-width:470px) {
   h1 {
+    padding: 1rem .25rem 0;
     font-size: 1.35rem;
-    text-shadow: 3px 3px $shadow;
-  }
-}
-
-@media(max-width:400px) {
-  h1 {
-    font-size: 1.25rem;
+    text-shadow: 2px 2px $shadow;
   }
   h2 {
-    font-size: 1.4rem;
+    padding: .25rem;
   }
 }
-
 
 // Footer styles
 
