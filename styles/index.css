@@ -410,7 +410,8 @@ footer {
     padding: 1rem 0 1rem; } }
 @media (max-width: 570px) {
   #sign {
-    margin: 70px auto 0;
+    border: 1rem solid #FF847D;
+    margin: 1rem auto;
     padding: 1rem 1rem; }
 
   h1 {
@@ -424,9 +425,17 @@ footer {
   h3 {
     font-size: 1rem;
     margin-top: .5rem; } }
-@media (max-width: 420px) {
+@media (max-width: 470px) {
+  #sign {
+    border: 1rem solid #FF847D;
+    margin: 1rem auto;
+    padding: 2rem; }
+
   h1 {
-    font-size: 1.25rem;
-    line-height: 1.25em; } }
+    margin: .5rem 10vw;
+    line-height: 1.25em; }
+
+  h2 {
+    margin: .5rem 5vw; } }
 
 /*# sourceMappingURL=index.css.map */
