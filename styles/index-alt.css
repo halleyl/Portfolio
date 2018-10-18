@@ -63,6 +63,8 @@ h2 {
     font-size: 1.75rem; } }
 @media (max-width: 450px) {
   #sign {
+    width: 90%;
+    margin: .5rem auto;
     text-align: left; } }
 h3 {
   font-family: "Montserrat", sans-serif;

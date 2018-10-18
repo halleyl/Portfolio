@@ -235,8 +235,13 @@ nav ul {
 
 @media(max-width:470px) {
   h1 {
-    font-size: 3rem;
+    padding: .5rem 1rem;
+    font-size: 2.75rem;
     text-shadow: 3px 3px $shadow;
+  }
+  h2 {
+    margin: 0;
+    padding: 0 1rem;
   }
 }
 
