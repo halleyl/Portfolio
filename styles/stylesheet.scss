@@ -234,6 +234,16 @@ nav ul {
   }
 }
 
+@media(max-width:400px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+
 // Footer styles
 
 footer {

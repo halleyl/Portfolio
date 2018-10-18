@@ -253,6 +253,12 @@ nav ul {
   h1 {
     font-size: 1.35rem;
     text-shadow: 3px 3px #2F4858; } }
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.25rem; }
+
+  h2 {
+    font-size: 1.4rem; } }
 footer {
   font-family: "Montserrat", sans-serif;
   color: white;

@@ -270,9 +270,10 @@ footer {
   top: 7rem;
 }
 
-@media(max-width:1149px) {
+@media(max-width:1200px) {
   #sign {
     width: 80%;
+    padding: 4rem;
   }
   nav {
     width: 75%;
@@ -369,7 +370,7 @@ footer {
 
 @media(max-width:570px) {
   #sign {
-    margin: 4vh auto 0;
+    margin: 70px auto 0;
     padding: 1rem 1rem;
   }
   h1 {
