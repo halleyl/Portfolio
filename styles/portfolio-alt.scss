@@ -258,10 +258,13 @@ a.hide {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #cccccc;
+  border-color: #aaaaaa;
     &:hover {
     background-color: #cccccc;
     border-color: #aaaaaa;
     color: rgba(255, 255, 255, .5);
     text-shadow: none;
+    cursor: not-allowed;
   }
 }

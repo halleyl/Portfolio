@@ -227,11 +227,14 @@ a.hide {
   background: url("../images/repo-bg-on.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  border-color: #aaaaaa; }
   a.hide:hover {
     background-color: #cccccc;
     border-color: #aaaaaa;
     color: rgba(255, 255, 255, 0.5);
-    text-shadow: none; }
+    text-shadow: none;
+    cursor: not-allowed; }
 
 /*# sourceMappingURL=portfolio-alt.css.map */
