@@ -71,7 +71,7 @@ let slides = [
   },{
     title: "Borkcode",
     screenshot: "images/bork.jpg",
-    text: "I designed and developed the beta website for a service that locates the owners of lost dogs. Using Vue.js, each dog can be looked up with a unique ID which will populate their information. JavaScript conditionals ensure that entry errors are handled and communicated. (Note: To test this site, please enter a Dog ID number between 1-5 on the landing page.)",
+    text: "I designed and developed a proof-of-concent website for a service that locates the owners of lost dogs. Using Vue.js, each dog can be looked up with a unique ID which will populate their information. JavaScript conditionals ensure that entry errors are handled and communicated. (Note: To test this site, please enter a Dog ID number between 1-5 on the landing page.)",
     list: `<li>Logo design</li>
           <li>HTML5</li>
           <li>CSS3</li>
