@@ -105,6 +105,10 @@ h3 {
   background-color: rgba(255,132,125, 0.55);
 }
 
+.motion {
+  background-color: rgba(71,88,121, 0.45);
+}
+
 .email {
   background-color: rgba(169,106,156, 0.55);
 }
@@ -210,6 +214,15 @@ article {
     border-color: $medium;
   }
   transition: all 0.25s linear;
+}
+
+@media(max-width:800px) {
+  .thumb-container {
+    .thumb-caption {
+      font-size: .5rem;
+      font-weight: 600;
+    }
+  }
 }
 
 @media(max-width:700px) {

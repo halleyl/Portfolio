@@ -80,6 +80,16 @@ let slides = [
     thumbId: "bork",
     project: "https://borkcode.com/",
     repo: "https://github.com/halleyl/borkcode"
+  },{
+    title: "Parallax Animation",
+    screenshot: "images/stroll.jpg",
+    text: "I used CSS and Javascript to create a side-scrolling parallax animation with user interactions, allowing our dog hero to go for a stroll in the countryside. The animations can be controlled with the simple slide-out control panel or with keyboard shortcuts. CSS image preloads keep everything rendering smoothly.",
+    list: `<li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>`,
+    thumbId: "stroll",
+    project: "https://halleyl.github.io/animation/",
+    repo: "https://github.com/halleyl/animation"
   }
 ]
 
