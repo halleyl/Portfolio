@@ -78,8 +78,14 @@ h3 {
 .site {
   background-color: rgba(88, 164, 176, 0.65); }
 
+.motion {
+  background-color: rgba(71, 88, 121, 0.45); }
+
 .email {
   background-color: #c4948b; }
+
+.doc {
+  background-color: rgba(255, 255, 255, 0.55); }
 
 .blank {
   visibility: hidden; }
