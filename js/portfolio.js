@@ -90,6 +90,19 @@ let slides = [
     thumbId: "stroll",
     project: "https://halleyl.github.io/animation/",
     repo: "https://github.com/halleyl/animation"
+  },{
+    title: "Voult Consulting Group",
+    screenshot: "images/voult.jpg",
+    text: "I designed and developed a prototype website for a consulting group. Using mobile first design and progressive enhancement, this website scales responsively. A simple hamburger menu is available on smaller screens for easy navigation. The index page includes parallax scrolling backgrounds, and the clients page displays a Bootstrap carousel component.",
+    list: `<li>Logo design</li>
+          <li>Sketch</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>`,
+    thumbId: "voult",
+    project: "https://halleyl.github.io/voult/",
+    repo: "https://github.com/halleyl/voult"
   }
 ]
 
